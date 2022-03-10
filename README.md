@@ -5,7 +5,7 @@
 if you want to remain productive and focused in a world of data breaches, mass surveillance and narrative media;  you need to be aware of the tools and methodologies available to help you.
 
 
->> Your entire life is valuable.
+> Your entire life is valuable.
 > [david allen](https://gettingthingsdone.com/)
 
 the data that you have generated over your life time is `a part of you`.  You might not recognize it, but your data has become one of the most valuable assets you have.
