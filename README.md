@@ -1,5 +1,6 @@
 # Start Here
 - last updated march tenth, twenty twenty two.
+- [#documentation:koad.sh](https://matrix.to/#/#documentation:koad.sh)
 
 if you want to remain productive and focused in a world of data breaches, mass surveillance and narrative media;  you need to be aware of the tools and methodologies available to help you.
 
