@@ -1,6 +1,7 @@
 # Start Here
-- last updated march tenth, twenty twenty two.
-- [#documentation:koad.sh](https://matrix.to/#/#documentation:koad.sh)
+[![Matrix](https://img.shields.io/matrix/documentation:koad.sh?label=chat&logo=matrix&server_fqdn=matrix.koad.sh)](https://matrix.to/#/#documentation:koad.sh?via=koad.sh)
+
+- last updated march tenth, twenty twenty two. 
 
 if you want to remain productive and focused in a world of data breaches, mass surveillance and narrative media;  you need to be aware of the tools and methodologies available to help you.
 
