@@ -1,0 +1,1 @@
+# You're too early, diner isn't ready yet.
