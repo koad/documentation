@@ -149,7 +149,10 @@ Once you have keys, communication, storage and a well-known system for dealing w
 
 ---
 
-Once you are up to speed, come play with me!  Send me a DM in the matrix > [@matrix:koad.sh](https://matrix.to/#/@matrix:koad.sh) 
+Once you are up to speed, come play with me!  
+1. Send me a DM on Keybase > [keybase.io/koad](https://keybase.io/koad/chat)
+2. Send me a DM in the Matrix > [@matrix:koad.sh](https://matrix.to/#/@matrix:koad.sh) 
+3. Check out more of my ramblings (the contents of this repo) > [docs.koad.sh](docs.koad.sh)
 
 # stay free
 /koad
