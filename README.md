@@ -1,5 +1,5 @@
 # Start Here
-[![Matrix](https://img.shields.io/matrix/documentation:koad.sh?label=documentation:koad.sh&logo=matrix&server_fqdn=matrix.koad.sh)](https://matrix.to/#/#documentation:koad.sh?via=koad.sh)
+[![Matrix](https://img.shields.io/matrix/documentation:koad.sh?label=#documentation:koad.sh&logo=matrix&server_fqdn=matrix.koad.sh)](https://matrix.to/#/#documentation:koad.sh?via=koad.sh)
 
 - last updated march tenth, twenty twenty two. 
 
