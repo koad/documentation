@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-mkdocs serve --dev-addr 10.11.12.28:11600
+mkdocs serve --dev-addr 10.10.10.10:11600
