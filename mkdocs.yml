@@ -38,10 +38,10 @@ theme:
     # - header.autohide
     # - navigation.expand
     - navigation.indexes
-    # - navigation.instant
+    - navigation.instant
     - navigation.sections
-    # - navigation.tabs
-    - navigation.tabs.sticky
+    - navigation.tabs
+    # - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
@@ -49,14 +49,18 @@ theme:
     - search.suggest
     # - toc.integrate
   palette:
-    - scheme: slate
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      accent: koad
       toggle:
-        icon: material/lightbulb-outline
-        name: Switch to light mode
-    - scheme: default
-      toggle:
-        icon: material/lightbulb
+        icon: material/weather-sunny
         name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      accent: koad-dark
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
@@ -79,7 +83,18 @@ extra:
 
 nav:
   - Home: index.md
-  - Introduction: introduction.md 
-  - Component Pieces: components/README.md
-  - Prerequisites: prerequisites/README.md
-  
+  - Getting started:
+    - Introduction: introduction.md 
+    - Component Pieces: components/README.md
+    - Prerequisites: prerequisites/README.md
+    - Year Zero: year-zero.md
+  - Setup:
+    - Ensuring data privacy: setup/ensuring-data-privacy.md
+  - Reference:
+    - reference/index.md
+  - Insiders:
+    - insiders/index.md
+  - Blog:
+    - blog/index.md
+    - 2022:
+      - blog/2022-March-13th-upstart.md
