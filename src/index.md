@@ -1,4 +1,4 @@
-# You're too early, diner isn't ready yet.
+# You're too early, dinner isn't ready yet.
 
 Why are you _now_ __here__?
 
