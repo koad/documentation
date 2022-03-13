@@ -1,0 +1,31 @@
+:root {
+  --md-primary-fg-color:        rgba(0,0,0,0.8);
+  --md-primary-fg-color--light: #009900;
+  --md-primary-fg-color--dark:  #000990;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 256;
+  --md-typeset-a-color: hsla(var(--md-hue),15%,70%,1);
+  --md-default-bg-color: hsla(var(--md-hue),15%,11%,1);
+
+}
+
+[data-md-color-accent=koad] {
+  --md-accent-fg-color: #000;
+}
+
+[data-md-color-accent=koad-dark] {
+  --md-accent-fg-color: #eee;
+  --md-accent-fg-color--transparent: rgba(0,189,164,0.1);
+  --md-accent-bg-color: #fff;
+  --md-accent-bg-color--light: hsla(0,0%,100%,0.7);
+}
+
+p a{
+  text-decoration: underline;
+}
+
+.md-grid {
+  max-width: 79rem;
+}
