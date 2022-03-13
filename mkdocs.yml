@@ -81,3 +81,5 @@ nav:
   - Home: index.md
   - Introduction: introduction.md 
   - Component Pieces: components/README.md
+  - Prerequisites: prerequisites/README.md
+  
