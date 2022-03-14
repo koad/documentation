@@ -1,26 +1,4 @@
----
-tags:
-  - insiders
-  - brand new
----
-
 # Why are you _now_ __here__?
-
-``` js
-import self from this
-```
-
-
-Maybe you want to be able to organize your own data, and your own mind.
-
-!!! note annotate "Phasellus posuere in sem ut cursus (1)"
-
-    Lorem ipsum dolor sit amet, (2) consectetur adipiscing elit. Nulla et
-    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
-    purus auctor massa, nec semper lorem quam in massa.
-
-1.  :man_raising_hand: I'm an annotation!
-2.  :woman_raising_hand: I'm an annotation as well!
 
 ## Collecting is always the first step.
 
