@@ -103,13 +103,19 @@ nav:
     - koad.live: koad.live.md
     - koad was here: whoami.md
   - Getting started:
-    - Core Components: getting-started/components.md
+    - Perspective: getting-started/perspective.md
+    - Key Applications: getting-started/components.md
     - Prerequisites: getting-started/prepare-yourself.md
     - Year Zero: getting-started/year-zero.md
   - Setup:
+    - Aquire some hardware: setup/aquire-some-hardware.md
     - Ensuring data privacy: setup/ensuring-data-privacy.md
   - Reference:
     - reference/index.md
+    - The Book of the Way: reference/books/lao-tzu-the-book-of-the-way.md
+    - "GTD: Getting Things Done": reference/books/gtd-getting-things-done.md
+    - New Local Economy: reference/books/new-local-economy.md
+    - The Amazing Power of Deliberate Intent: reference/books/the-amazing-power-of-deliberate-intent.md
   - Insiders:
     - insiders/index.md
   - Blog:
