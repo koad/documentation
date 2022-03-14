@@ -1,11 +1,11 @@
 :root {
-  --md-primary-fg-color:        rgba(0,0,0,0.8);
+  --md-primary-fg-color:        hsla(214, 13%, 20%, 0.8);
   --md-primary-fg-color--light: #009900;
   --md-primary-fg-color--dark:  #000990;
 }
 
 [data-md-color-scheme="slate"] {
-  --md-hue: 256;
+  --md-hue: 215;
   --md-typeset-a-color: hsla(var(--md-hue),15%,70%,1);
   --md-default-bg-color: hsla(var(--md-hue),15%,11%,1);
 
