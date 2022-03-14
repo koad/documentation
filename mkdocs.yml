@@ -81,13 +81,31 @@ extra:
       link: https://keybase.io/koad/sigchain
   # generator: false
 
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
 nav:
-  - Home: index.md
-  - Getting started:
+  - Home: 
+    - index.md
     - Introduction: introduction.md 
-    - Component Pieces: components/README.md
-    - Prerequisites: prerequisites/README.md
-    - Year Zero: year-zero.md
+    - koad.live: koad.live.md
+    - koad was here: whoami.md
+  - Getting started:
+    - Core Components: getting-started/components.md
+    - Prerequisites: getting-started/prepare-yourself.md
+    - Year Zero: getting-started/year-zero.md
   - Setup:
     - Ensuring data privacy: setup/ensuring-data-privacy.md
   - Reference:
@@ -95,6 +113,4 @@ nav:
   - Insiders:
     - insiders/index.md
   - Blog:
-    - blog/index.md
-    - 2022:
-      - blog/2022-March-13th-upstart.md
+    - blog/2022-03-13-upstart.md
