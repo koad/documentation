@@ -6,9 +6,8 @@
 
 [data-md-color-scheme="slate"] {
   --md-hue: 215;
-  --md-typeset-a-color: hsla(var(--md-hue),15%,70%,1);
-  --md-default-bg-color: hsla(var(--md-hue),15%,11%,1);
-
+  --md-typeset-a-color: hsla(var(--md-hue),25%,60%,1);
+  --md-default-bg-color: hsla(var(--md-hue),15%,16%,1);
 }
 
 [data-md-color-accent=koad] {
@@ -22,7 +21,7 @@
   --md-accent-bg-color--light: hsla(0,0%,100%,0.7);
 }
 
-p a{
+p a:hover{
   text-decoration: underline;
 }
 
