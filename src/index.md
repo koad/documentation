@@ -41,9 +41,9 @@ Keybase
 - [ ] social proofs  
 - [ ] encrypted messenger  
 - [ ] encrypted files  
-- [ ] team and private git  
-- [ ] team and private chat  
-- [ ] team and private key:value store  
+- [ ] family and private git  
+- [ ] family and private chat  
+- [ ] family and private key:value store  
 
 Sandstorm  
 
