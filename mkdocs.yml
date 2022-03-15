@@ -95,6 +95,9 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
 
 nav:
   - Home: 
@@ -103,6 +106,7 @@ nav:
     - koad.live: koad.live.md
     - koad was here: whoami.md
   - Getting started:
+    - getting-started/index.md
     - Perspective: getting-started/perspective.md
     - Key Applications: getting-started/components.md
     - Prerequisites: getting-started/prepare-yourself.md
