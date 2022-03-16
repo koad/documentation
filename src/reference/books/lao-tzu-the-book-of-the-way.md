@@ -1,11 +1,9 @@
   
-# Tao Te Ching  
+## Tao Te Ching  
 > Lao Tzu
 506 B.C.E.  
   
-Written more than two thousand years ago, the Tao Te Ching is one of the true classics of   spiritual literature. It is a guide to cultivating a life of peace, serenity, and compassion. Through aphorisms and parable, it leads readers toward the Tao, or the “Way”: harmony with the life force of the universe. (This version was translated/interpreted by Stephen Mitchell in 1988.)
-  
-Text sourced from [organism.earth/library/document/tao-te-ching](https://www.organism.earth/  library/document/tao-te-ching)
+Written more than two thousand years ago, the Tao Te Ching is one of the true classics of   spiritual literature. It is a guide to cultivating a life of peace, serenity, and compassion. Through aphorisms and parable, it leads readers toward the Tao, or the “Way”: harmony with the life force of the universe.
 
 ---
 
@@ -16,6 +14,11 @@ Text sourced from [organism.earth/library/document/tao-te-ching](https://www.org
 [The Book of the Way (Tao Te Ching) by Lao Tzu - Full AudioBook](https://www.youtube.com/watch?v=jVbNPQZwL6k) (two hours, five minutes)  
 
 ---  
+
+This version was translated/interpreted by Stephen Mitchell in 1988.
+  
+Text sourced from [organism.earth/library/document/tao-te-ching](https://www.organism.earth/  library/document/tao-te-ching)
+
 ## one  
   
 The tao that can be told  

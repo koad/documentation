@@ -5,73 +5,35 @@ hide:
 ---
 
 # My sweetest friend
-This site's source code is located at [github.com/koad/documentation](https://github.com/koad/documentation).
+<!-- # Why are you _now_ __here__? -->
 
-[![Matrix](https://img.shields.io/matrix/documentation:koad.sh?label=documentation:koad.sh&logo=matrix&server_fqdn=matrix.koad.sh)](https://matrix.to/#/#documentation:koad.sh?via=koad.sh)
-
----
-
-## The stains of time
-As I sift through the broken thoughts I will place the results here. If I could start again I would keep myself organized; my thoughts organized.
+## If you are a _low-tech person_, it would benefit you the most to take a pass through the first half of the [getting started](https://docs.koad.sh/getting-started/) guide.  It outlines basic understandings anyone with internet access should possess.  A little bit of knowledge can go a long way to help you stay safe online.
 
 ---
+
+## The rise of a new dimension of space-time.  
+
+You can now build things and ideas in a space that is eternal.  The singularity will happen to you when you let your brain enjoy the tools of this new space-time and join others in communities of like mind.  Your work done today can be built upon by future versions of yourself; provided it has been collected, processed, organized, reviewed and acted on.  This process is the key.
+
+## Keep it simple and stupid.
+
+Simple single-use apps can be tied together in your mind and project boards.  You do not need or want any `all-in-one` app or device which will always result in less capable overall abilities. 
+
+## Thoughts become things  
+
+- these are your projects
+- a project is an idea that drives you to action
+
+projects can show up at any time, prepare to capture them and push them into a reliable system to accomplish any actionable items that are required to complete the `project`
+
+<!-- "in the beginning, __God said__" -->
+
 
 ## Organized Reality.
 
 You likely already don't remember any phone numbers, because you `trust your system` and your mind has been able to `let it go`.
 
-You likely already have some of these items so I know you are able. 
-
-One by one, just keep learning just `one` more.  
-
-- [x] contact book  
-- [x] calendar  
-- [x] email  
-- [x] sms/text  
-
-GTD
-
-- [x] inbox
-- [ ] action support material
-- [ ] action list
-- [ ] project list
-
-Keybase
-
-- [ ] social proofs  
-- [ ] encrypted messenger  
-- [ ] encrypted files  
-- [ ] family and private git  
-- [ ] family and private chat  
-- [ ] family and private key:value store  
-
-Sandstorm  
-
-- [ ] powerbox authentication  
-- [ ] on the fly sandboxes  
-- [ ] invite only technology  
-
-eCoinCore
-
-- [ ] keyring  
-- [ ] cache-box  
-
-Matrix
-
-- [ ] homeserver  
-- [ ] integrations  
-
-Optimism
-
-- [ ] positive mental attitude  
-
-Abraham  
-
-- [ ] willingness to let things go  
-- [ ] abolishing limiting beliefs  
-
-
-This is not about security, privacy and freedom.  It is about skill/abilities and `ease of flow`. `Security, privacy and freedom` just happen to get dealt with as a matter of principal.
+This is not about security, privacy and freedom.  It is about skill+abilities, connectedness and `ease of flow`. `Security, privacy and freedom` just happen to get dealt with as a matter of principal.
 
 The more you can `just get it done` in `the moment` the more you will get done.  If you can out perform the majority of the people on this planet, you will most certainly achieve more of what you want.
 
@@ -83,3 +45,5 @@ Once you are up to speed, come play with me!
 
 # stay free
 /koad
+
+[![Matrix](https://img.shields.io/matrix/documentation:koad.sh?label=documentation:koad.sh&logo=matrix&server_fqdn=matrix.koad.sh)](https://matrix.to/#/#documentation:koad.sh?via=koad.sh)

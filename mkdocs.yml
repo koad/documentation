@@ -110,20 +110,50 @@ nav:
     - koad was here: whoami.md
   - Getting started:
     - getting-started/index.md
-    - Perspective: getting-started/perspective.md
-    - Key Applications: getting-started/components.md
-    - Prerequisites: getting-started/prepare-yourself.md
-    - Year Zero: getting-started/year-zero.md
+    - getting-started/the-game-plan.md
+    - getting-started/prepare-yourself.md
+    - getting-started/picking-your-username.md
+    - getting-started/spawning-a-keybase-identity.md
+    - getting-started/securing-your-keybase-identity.md
+    - getting-started/create-your-first-keybase-team.md
+    - getting-started/invite-your-mother-to-keybase.md
+    - getting-started/hallmarks-of-a-scam.md
+    - getting-started/block-email-scams.md
+    - getting-started/block-internet-scams.md
+    - getting-started/block-phishing-scams.md
+    - getting-started/block-telephone-scams.md
+    - getting-started/block-financial-scams.md
+    - getting-started/secure-your-surroundings.md
+    - getting-started/secure-your-windows-desktop.md
+    - getting-started/secure-your-android.md
+    - getting-started/secure-your-iphone.md
+    - getting-started/secure-your-mac.md
+    - getting-started/in-review.md
+
   - Setup:
-    - Aquire some hardware: setup/aquire-some-hardware.md
+    - setup/index.md
     - Ensuring data privacy: setup/ensuring-data-privacy.md
-  - Reference:
-    - reference/index.md
+    - Year Zero: setup/year-zero.md
+    - Aquire some hardware: setup/aquire-some-hardware.md
+    - setup/prepare-your-kingdom.md
+    - setup/picking-your-domain-name.md
+    - setup/lets-encrypt-wildcard-cert.md
+    - setup/understanding-the-matrix.md
+    - setup/installing-the-matrix.md
+    - setup/invite-your-loved-ones.md
+    - setup/create-your-first-space.md
+    - setup/create-your-first-channels.md
+    - setup/understanding-sandstorm.md
+    - setup/installing-sandstorm.md
+    - setup/create-your-first-sandbox.md
+    - setup/create-state-database.md
+  - Books:
+    - reference/books/index.md
     - The Book of the Way: reference/books/lao-tzu-the-book-of-the-way.md
-    - "GTD: Getting Things Done": reference/books/gtd-getting-things-done.md
+    - Getting Things Done (GTD): reference/books/gtd-getting-things-done.md
     - New Local Economy: reference/books/new-local-economy.md
     - The Amazing Power of Deliberate Intent: reference/books/the-amazing-power-of-deliberate-intent.md
-  - Insiders:
-    - insiders/index.md
-  - Blog:
-    - blog/2022-03-13-upstart.md
+  - Reference:
+    - reference/index.md
+    - Topic Coverage: checklists/kingdom-general.md
+    - koad:io entity: reference/koad-io-entity
