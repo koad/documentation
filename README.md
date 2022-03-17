@@ -15,3 +15,9 @@ pip install -e mkdocs-material
 ```bash
 mkdocs serve --dev-addr 10.10.10.10:11600
 ```
+
+# 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
