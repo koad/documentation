@@ -105,9 +105,6 @@ markdown_extensions:
 nav:
   - Home: 
     - index.md
-    - Introduction: introduction.md 
-    - koad.live: koad.live.md
-    - koad was here: whoami.md
   - Getting started:
     - getting-started/index.md
     - getting-started/the-game-plan.md
@@ -123,12 +120,17 @@ nav:
     - getting-started/block-phishing-scams.md
     - getting-started/block-telephone-scams.md
     - getting-started/block-financial-scams.md
+    - getting-started/secure-your-family.md
     - getting-started/secure-your-surroundings.md
+    - getting-started/secure-your-files-and-folders.md
     - getting-started/secure-your-windows-desktop.md
     - getting-started/secure-your-android.md
     - getting-started/secure-your-iphone.md
     - getting-started/secure-your-mac.md
+    - getting-started/secure-your-television.md
+    - getting-started/secure-your-smart-speaker.md
     - getting-started/in-review.md
+    - getting-started/sharing-is-caring.md
 
   - Setup:
     - setup/index.md
@@ -156,4 +158,18 @@ nav:
   - Reference:
     - reference/index.md
     - Topic Coverage: checklists/kingdom-general.md
-    - koad:io entity: reference/koad-io-entity
+    - koad:io entity: reference/koad-io-entity.md
+    - Introduction: introduction.md 
+    - koad.live: koad.live.md
+    - koad was here: whoami.md
+    - tags.md
+    - getting-started/desktop.md
+    - insiders/index.md
+    - setup/components.md
+  - Cheat Sheets:
+    - cheatsheets/index.md    
+    - cheatsheets/meteor-js/index.md
+    - cheatsheets/nginx/index.md
+    - cheatsheets/node-volume-manager/index.md
+    - cheatsheets/uncomplicated-firewall/index.md
+
