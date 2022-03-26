@@ -1,10 +1,27 @@
 # koad:io entities
 
-A koad-io entity is a set of environment variables and directories that are used to speed up and automate much of the recurring tasks in my life.
 
-they also have keybase accounts of their own.  I interact with them just as if they were any other person in my life.  File shares, git repos and chat to issue the same commands used in my `bash terminal`.
+## what?
+A koad-io entity is a set of environment variables and directories that are used to organize and automate much of the recurring tasks in my life.  
 
-since I can operate within separate environments I can easily keep all the parts and pieces organized in my mind.  I can reference a group of projects to a `human-recognizable digital entity` simply by issuing commands.
+These directories make it easy to remember where I left off even on projects I only have to deal with every few years.
+
+Entities also have keybase accounts of their own.  I interact with them just as if they were any other person in my life.  Team/family file shares, git repos as well as chat to interact the same as I would in my `bash terminal`.
+
+
+## who?
+Since I can operate within separate environments I can easily keep all the parts and pieces of any project/context together in an enviroment, i can also keep it organized in my mind.  
+
+An entity is a dotfile directory located in your home directory under the same name
+ie: `~/`+`dot`+`alice` 
+```bash
+/home/koad/.alice
+```
+
+> It is best to encrypt this folder using [a PGP key; do you have one?](https://docs.koad.sh/reference/generate-keybase-gpg-key/)
+
+
+I can interact with an `entity` simply by issuing commands.
 
 for example, I have many entities that I call upon
 
@@ -17,7 +34,7 @@ Be wise when picking names.
 
 here are a few commands I use all the time.  The results (if any) are all stored within the entity's data directory.  
 
-Marsha checks certs then builds her website in `~/.marsha/sites/qr.ourcoin.ca/`
+Marsha checks certs then builds her website in `~/.marsha/sites/qr.ourcoin.ca/` then uploads the build-package to the production server.
 ```bash
 marsha probe domain qr.ourcoin.ca
 marsha build site qr.ourcoin.ca
@@ -30,7 +47,7 @@ alice archive video https://www.youtube.com/watch?v=dQw4w9WgXcQ
 alice archive video dQw4w9WgXcQ
 ```
 
-Marsha starts her interface in `~/.marsha/interface/`
+Marsha starts her user interface in `~/.marsha/interface/`
 ```bash
 marsha start interface
 ```
@@ -40,17 +57,65 @@ Astro opens an SSH connection to `device://jersey` and logs in (passwordless) as
 astro ssh jersey
 ```
 
+in all cases, the command is a wrapper command, setting a single enviroment variable `KOAD_IO_ENTITY` and then passing all arguments to the koad-io command.
+
+The command `alice` looks like this:
+> `cat ./.bin/alice`
+```bash
+#!/bin/bash
+
+export KOAD_IO_ENTITY='alice';
+koad-io "$@";
+```
+
+from here, koad-io uses it's standardize approach to loading the appropriate enviroment variables from the `.alice` folder.  The system itself can be of any design, in my case it's based on where `I think I would` put something, rather than where some linux geek thinks I should.
+
+
+## location
+
+the entity's folder can be moved anywhere, edit the wrapper command and specify...
+`KOAD_IO_ENV_LOCATION`
+
+```bash
+#!/bin/bash
+
+export KOAD_IO_ENTITY='alice';
+export KOAD_IO_ENV_LOCATION='/home/koad/.wonderland/entities/alice';
+koad-io "$@";
+```
+
+
+## portability
+
+`KOAD_IO_ENABLE_PORTABLITY` if you want to contain on an external drive and use it on multiple devices.  [read before flight](https://docs.koad.sh/reference/koad-io-entity/)  
+
+- must also specify `KOAD_IO_ENV_LOCATION`
+
+```bash
+#!/bin/bash
+
+export KOAD_IO_ENTITY='alice';
+export KOAD_IO_ENABLE_PORTABLITY=true;
+export KOAD_IO_ENV_LOCATION='/media/koad/ROG1T/koad-io-entities/alice';
+koad-io "$@";
+```
+
 ## Folders
 
-koad:io installation  
+koad:io installation   
+
+
+This folder doesnt keep any personal data, its a clone of `https://github.com/koad/io`  
+
+
+ALL of your data is stored within your entities datadir (ie: `~/.alice`).
+
 ```bash
  cd ~/.koad-io
  ls -la
 ```
 
-This folder doesnt keep any personal data, its a clone of `https://github.com/koad/io`
-
-warn: making changes in this directory may make your shit not work.  You want to make an entity, and it the entity's directory to override the parts of koad:io you wish to customize.
+warning: making changes in this directory may make your shit not work.  You want use an entity's directory to override the parts of environment you wish to customize.
 
 get koad-io
 ```
