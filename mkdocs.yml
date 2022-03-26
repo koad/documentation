@@ -101,6 +101,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
+  - attr_list
+  - md_in_html
 
 nav:
   - Home: 
@@ -155,6 +157,7 @@ nav:
     - Getting Things Done (GTD): reference/books/gtd-getting-things-done.md
     - New Local Economy: reference/books/new-local-economy.md
     - The Amazing Power of Deliberate Intent: reference/books/the-amazing-power-of-deliberate-intent.md
+    - reference/books/digital-minimalism.md
   - Reference:
     - reference/index.md
     - Topic Coverage: checklists/kingdom-general.md
@@ -172,4 +175,6 @@ nav:
     - cheatsheets/nginx/index.md
     - cheatsheets/node-volume-manager/index.md
     - cheatsheets/uncomplicated-firewall/index.md
-
+    - reference/generate-keybase-gpg-key.md
+    - scratch-pad/install-sandstorm-via-docker.md
+    - scratch-pad/keyboard-shortcuts.md
