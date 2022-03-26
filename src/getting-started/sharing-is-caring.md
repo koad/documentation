@@ -4,7 +4,7 @@ If you feel like this `getting started` guide is worthy, please consider sharing
 
 direct your loved ones to visit [kingofalldata.com](https://kingofalldata.com) which points right to this site.
 
-## Share your Enthusiasm
+## Share your [Enthusiasm](https://www.youtube.com/watch?v=9vz06QO3UkQ)
 
 Join the #documentation:koad.sh space in the matrix and chat with others about this work.
 

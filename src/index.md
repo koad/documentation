@@ -35,7 +35,7 @@ You likely already don't remember any phone numbers, because you `trust your sys
 
 This is not about security, privacy and freedom.  It is about skill+abilities, connectedness and `ease of flow`. `Security, privacy and freedom` just happen to get dealt with as a matter of principal.
 
-The more you can `just get it done` in `the moment` the more you will get done.  If you can out perform the majority of the people on this planet, you will most certainly achieve more of what you want.
+The more you can `just get it done` in `the moment` the more you will get done.  If you can out perform your competition, you will most certainly achieve more of what you want.
 
 ---
 
