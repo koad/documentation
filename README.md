@@ -3,6 +3,13 @@
 [![Matrix](https://img.shields.io/matrix/documentation:koad.sh?label=documentation:koad.sh&logo=matrix&server_fqdn=matrix.koad.sh)](https://matrix.to/#/#documentation:koad.sh?via=koad.sh)
 
 
+Take a journey through my mind's eye, what do you see?
+
+## View
+
+These documentations are served at http://docs.koad.sh
+
+
 ## Install
 
 Install [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
