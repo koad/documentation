@@ -1,68 +1,70 @@
-# Keyboard Shortcuts
-
-The primary system modifier key should be <Super> (Super/Windows/Command key).   
-Find a possible work around for non-existent keys like PrnScr, !Meta/!Super.  
-
----
+# keyboard shortcuts
 
 
-## power down  
-Restart the machine
+## necessities
 
-## panic - power down the machine
-### ++ctrl+alt+delete++  
-### ++super+f4++  
+Learn these puppies to easily breeze through applications in the moment of the thought.
 
 
-## Launchers
+### launchers
 
-### open a new terminal emulator
-++ctrl+alt+t++  
-
-### open a new default browser window
-++ctrl+alt+i++  
-
-### open a new default files explorer
-++ctrl+alt+f++  
-
-### bring forward koad:io controller
-++ctrl+alt+space++  
+- open a new terminal emulator: ++ctrl+alt+t++  
+- open a new default browser window: ++ctrl+alt+i++  
+- open a new default files explorer: ++ctrl+alt+f++  
+- bring forward koad:io controller: ++ctrl+alt+space++  
+- open the application drawer: ++super+a++
 
 
-## take a screenshot
+### workspace management
 
-### of entire desktop
-++print++
+move entire- workspace up/down one workspace (reorder) from within the overview menu
 
-### of a window                           
-++alt+print++
+- down: ++alt+up++
+- up: ++alt+down++
 
-### of a region                           
-++shift+print++
+bring focus up/down one workspace  
 
-### and paste in a clipboard              
-++ctrl+print++
+- down: ++ctrl+alt+up++
+- up: ++ctrl+alt+down++
 
-### of a window and paste in a clipboard  
-++ctrl+alt+print++
+and bring the current app with you by adding ++shift++
 
-### of a region and paste in a clipboard  
-++ctrl+shift+print++
+- down: ++ctrl+alt+shift+up++
+- up: ++ctrl+alt+shift+down++
 
-### video capture desktop                 
-++ctrl+alt+shift+r++
+move the currently focused application to different workspace/sidecar
 
+-  to monitor left: ++super+shift+left++  
+-  to monitor right: ++super+shift+right++  
 
-## moving windows to different workspaces
-|  Behavior/Action    |  key combo              |
-|---------------------|-------------------------|
-| next workspace      | ++super+shift+pgdown++  |
-| previous workspace  | ++super+shift+pgup++    |
-| monitor left        | ++super+shift+left++    |
-| monitor right       | ++super+shift+right++   |
+change the label of the currently focused workspace
+
+1. bring forward koad:io controller: ++ctrl+alt+space++  
+2. press ++l++ for `label`
 
 
-## navigating the open applications
+## more, other..
+
+### close  
+
+- bring open the dialog: ++ctrl+alt+delete++  
+- close the current window: ++alt+f4++  
+- close the current tab: ++ctrl+f4++  
+
+
+### screenshots
+
+- of entire desktop: ++print++  
+- of a window: ++alt+print++  
+- of a region: ++shift+print++  
+- and paste in a clipboard: ++ctrl+print++  
+- of a window and paste in a clipboard: ++ctrl+alt+print++  
+- of a region and paste in a clipboard: ++ctrl+shift+print++  
+- video capture desktop: ++ctrl+alt+shift+r++  
+
+
+### navigating the open applications
+
 |  Behavior/Action                                     |  Gnome                              |
 | -----                                                | -----                               |
 | Switch to next application                           | ++super+tab++                           |
@@ -72,7 +74,7 @@ Restart the machine
 | Switch to next window of the current application     | ++super+&lt;key above tab&gt;         |
 | Switch to previous window of the current application | ++super+shift+&lt++;key above tab&gt;   |
 
-## from within an application
+### from within an application
 |  Behavior/Action    |  key combo              |
 | ----- | ----- |
 |Close Active Window    | ++alt+f4++, ++ctrl+w++, ++super+w++ |
@@ -82,7 +84,7 @@ Restart the machine
 |Switch to previous tab | ++ctrl+shift+tab++ |
 
 
-## more, other..
+### more, other..
 |  Behavior/Action    |  key combo              |
 | -----                           |  ----- | 
 | Hush Mode (set busy)            |                                 |
@@ -92,16 +94,15 @@ Restart the machine
 | Toggle Zoom                     | ++alt+super+8++                     |
 | Toggle Screen Reader            | ++alt+super+s++                     |
 | Enter overview                  | ++super++, ++super+s++          |
-| Enter "Show Applications"       | ++super+a++                 |
 | Window modifier                 | ++super++                   |
 | Access Application Menu         | ++super+f10++               |
 | Switch focus in overview        | ++tab++                     |
 | Toggle maximized/windowed       | ++super+up++ / ++super+down++   |
 | Toggle tiled left               | ++super+left++              |
 | Toggle tiled right              | ++super+right++             |
-| Minimize window                 | ++super+h, ++alt+f9++         |
-| Switch to next workspace        | ++super+pgdown++       |
-| Switch to previous workspace    | ++super+pgup++          |
+| Minimize window                 | ++super+h++, ++alt+f9++         |
+| Switch to next workspace        | ++super+pg-down++       |
+| Switch to previous workspace    | ++super+pg-up++          |
 | Switch to first workspace       | ++super+home++              |
 | Switch to last workspace        | ++super+end++               |
 | Switch input source                                     | ++super+space++                         |
@@ -109,6 +110,12 @@ Restart the machine
 | Expand a notification and give it keyboard focus        | ++super+n++                             |
 
 
-## Links
+
+## caveats 
+
+The primary system modifier key should be <Super> (Super/Windows/Command key).   
+Find a possible work around for non-existent keys like PrnScr, !Meta/!Super.  
+
+## reference
 
 - [Let your fingertips fly, 20 essential Windows keyboard shortcuts that will make you forget your mouse](https://www.popsci.com/windows-keyboard-shortcuts/)
