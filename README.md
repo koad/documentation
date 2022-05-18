@@ -7,7 +7,7 @@ Take a journey through my mind's eye, what do you see?
 
 ## View
 
-These documentations are served at http://book.koad.sh
+These documentations are served at [//book.koad.sh](https://book.koad.sh)
 
 
 ## Install
