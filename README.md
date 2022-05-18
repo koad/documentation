@@ -1,6 +1,6 @@
 # book.koad.sh
 
-[![Matrix](/assets/badges/matrix/documentation.svg)](https://matrix.to/#/#documentation:koad.sh?via=koad.sh)
+[![Matrix](/src/assets/badges/matrix/documentation.svg)](https://matrix.to/#/#documentation:koad.sh?via=koad.sh)
 
 
 Take a journey through my mind's eye, what do you see?
