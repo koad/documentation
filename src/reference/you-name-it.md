@@ -44,7 +44,7 @@ There is no mistaking the contents of the folder/repo.
 ### Entities  
 
 My replacement for Siri, Alexia and that other double agent.  
-[(a folder for a category of projects)](https://docs.koad.sh/reference/koad-io-entity/) 
+[(a folder for a category of projects)](https://book.koad.sh/reference/koad-io-entity/) 
 
 has people names, because I address them in the same way.  
 ie: >`alice gather `

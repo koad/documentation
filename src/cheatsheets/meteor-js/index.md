@@ -42,7 +42,7 @@ meteor create --bare src && \
 cp -Rf ~/.koad-io/skeletons/progressive/* ./
 ```
 
-use your [`entity`](https://docs.koad.sh/reference/koad-io-entity/) to create this same setup in the `usual place`
+use your [`entity`](https://book.koad.sh/reference/koad-io-entity/) to create this same setup in the `usual place`
 ```bash
 alice create site --progressive example.koad.sh
 ```

@@ -46,4 +46,5 @@ Once you are up to speed, come play with me!
 # stay free
 /koad
 
-[![Matrix](https://img.shields.io/matrix/documentation:koad.sh?label=documentation:koad.sh&logo=matrix&server_fqdn=matrix.koad.sh)](https://matrix.to/#/#documentation:koad.sh?via=koad.sh)
+
+[![Matrix](/assets/badges/matrix/documentation.svg)](https://matrix.to/#/#documentation:koad.sh?via=koad.sh)

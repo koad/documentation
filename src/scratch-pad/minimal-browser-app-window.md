@@ -12,7 +12,12 @@ chromium --app=https://discord.com/channels/@me --class=discordwebapp $* >/dev/n
 
 My reference documentation  
 ```bash
-chromium --app=https://docs.koad.sh --class=docskoadsh $* >/dev/null 2>/dev/null & disown
+chromium --app=https://book.koad.sh --class=bookkoadsh $* >/dev/null 2>/dev/null & disown
+```
+
+portainer  
+```bash
+chromium --app=http://10.10.10.10:9000 --class=portainer $* >/dev/null 2>/dev/null & disown
 ```
 
 mkdocs-material reference documentation  
@@ -24,9 +29,9 @@ chromium --app=https://squidfunk.github.io/mkdocs-material/reference/ --class=do
 
 > substitue `chromium` with your favorite chromium based browser.  
 ```bash 
-google-chrome-stable --app=https://docs.koad.sh --class=docskoadsh $* >/dev/null 2>/dev/null & 
-google-chrome --app=https://docs.koad.sh --class=docskoadsh $* >/dev/null 2>/dev/null & 
-brave --app=https://docs.koad.sh --class=docskoadsh $* >/dev/null 2>/dev/null & 
+google-chrome-stable --app=https://book.koad.sh --class=bookkoadsh $* >/dev/null 2>/dev/null & 
+google-chrome --app=https://book.koad.sh --class=bookkoadsh $* >/dev/null 2>/dev/null & 
+brave --app=https://book.koad.sh --class=bookkoadsh $* >/dev/null 2>/dev/null & 
 ```
 
 note: the `--class` is set here so your app-launcher can link the opened window to the icon within the launcher.

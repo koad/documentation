@@ -1,13 +1,13 @@
-# docs.koad.sh
+# book.koad.sh
 
-[![Matrix](https://img.shields.io/matrix/documentation:koad.sh?label=documentation:koad.sh&logo=matrix&server_fqdn=matrix.koad.sh)](https://matrix.to/#/#documentation:koad.sh?via=koad.sh)
+[![Matrix](/assets/badges/matrix/documentation.svg)](https://matrix.to/#/#documentation:koad.sh?via=koad.sh)
 
 
 Take a journey through my mind's eye, what do you see?
 
 ## View
 
-These documentations are served at http://docs.koad.sh
+These documentations are served at http://book.koad.sh
 
 
 ## Install
@@ -20,7 +20,8 @@ pip install -e mkdocs-material
 ## Run
 
 ```bash
-mkdocs serve --dev-addr 10.10.10.10:11600
+screen -S book.koad.sh
+cd /home/koad/.koad-io/docs && mkdocs serve --dev-addr 10.10.10.10:11600
 ```
 
 # 🤝 Support
