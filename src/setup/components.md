@@ -1,6 +1,6 @@
 I like to have things work together but also keep component pieces that operate as individual units.  I use several individual fundamental parts to create a foundation where all my `micro-services` can be derived.
 
-these components become the standardized [koad:io](https://github.com/koad/io) stack.
+these components are the foundation of the standardized [koad:io](https://github.com/koad/io) stack.
 
 any one of these can be used by itself,  the magic is in the synergistic effect of combining them.
 
@@ -36,7 +36,7 @@ Matrix allows for communication throughout my kingdom.  Channels and messages ex
 Matrix channels are used to control application config and logic.  It is useful for signaling within multi-user applications within and outside of the kingdom.
 
 > Matrix is an open source project that publishes the
-Matrix open standard for secure, decentralised, real-time communication, and its Apache licensed reference implementations.
+Matrix open standard for secure, decentralized, real-time communication, and its Apache licensed reference implementations.
 [matrix.org](https://matrix.org/)
 
 ### Meteor
@@ -76,7 +76,9 @@ Use third party and proprietary services to the extent that you can trust them. 
 
 Listed here are a few of the most fundamental tools used in my daily life.  This is not a complete list of everything, but it is a list of components that exist within the majority of the work within my meta-verse kingdom.
 
-In an ideal world, maybe in my lifetime, we would see the Keybase server functions wrapped into a nice self-hostable package as well as the sandstorm services become a compatible matrix integrations server.
+In an ideal world, maybe in my lifetime, we would see 
+- the Keybase server functions wrapped into a nice self-hostable package  
+- the sandstorm services become a compatible matrix integrations server  
 
 _I am excited to see where these things go._
 
