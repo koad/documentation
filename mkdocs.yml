@@ -169,12 +169,99 @@ nav:
     - getting-started/desktop.md
     - insiders/index.md
     - setup/components.md
+    - reference/generate-keybase-gpg-key.md
+    - reference/a-new-diet-for-my-broken-body.md
+    - reference/custom-customized-customizations.md
+    - reference/essential-nutrients-for-human.md
+    - reference/four-freedoms-of-open-source-producers.md
+    - reference/koads-entity-state-dbs.md
+    - reference/manifest-heaven-on-earth.md
+    - reference/passwordless-ssh.md
+    - reference/thy-self.md
+    - reference/you-name-it.md
+    - scratch-pad/managing-docker.md
+    - scratch-pad/minimal-browser-app-window.md
+    - reference/mp-positions.md
+    - reference/koad-io/index.md
+    - reference/koad-io/commands.md
+    - scratch-pad/books-about-medical-things.md
+    - scratch-pad/ecoincore-basic-components.md
+    - scratch-pad/preparing-new-vps-from-scratch.md
+    - scratch-pad/privateness-apr-11-2022.md
+    - scratch-pad/some-sort-of-email-solution-for-local-users.md
+  - Components:
+    - components/ability-to-identify-limiting-beliefs.md
+    - components/audio-and-music.md
+    - components/cache-box.md
+    - components/calendar-and-contacts.md
+    - components/cloud-computing.md
+    - components/creation-station.md
+    - components/cryptographic-proofs.md
+    - components/desktop-enviroments.md
+    - components/digital-social-gathering.md
+    - components/digtial-networks.md
+    - components/email-with-catchall-enabled.md
+    - components/files-and-folders.md
+    - components/home-server.md
+    - components/inbox.md
+    - components/key-sets-and-tool-chains.md
+    - components/mobile-experience.md
+    - components/photo-albums.md
+    - components/physical-automation.md
+    - components/positive-mental-attitude.md
+    - components/private-communication.md
+    - components/projects-and-support-material.md
+    - components/service-hosting.md
+    - components/signing-authorities.md
+    - components/telephone-fax-and-sms.md
+    - components/user-accounts.md
+    - components/virtualization.md
+    - components/visual-entertainment.md
+    - components/willingness-to-accept-change.md
+    - components/domain-names-and-registrars.md
+    - components/package-registry.md
+  - Repositories:
+    - repo/simple-qrcode-image-api.md
   - Cheat Sheets:
     - cheatsheets/index.md    
     - cheatsheets/meteor-js/index.md
     - cheatsheets/nginx/index.md
     - cheatsheets/node-volume-manager/index.md
     - cheatsheets/uncomplicated-firewall/index.md
-    - reference/generate-keybase-gpg-key.md
     - scratch-pad/install-sandstorm-via-docker.md
     - scratch-pad/keyboard-shortcuts.md
+    - cheatsheets/apt-get-thinks-i-no-longer-require.md
+    - cheatsheets/archive-an-entire-site.md
+    - cheatsheets/available-software-licences.md
+    - cheatsheets/canada-ecoin.md
+    - cheatsheets/clearing-consoles.md
+    - cheatsheets/daily-worksheet.md
+    - cheatsheets/designing-print-with-css.md
+    - cheatsheets/docker-randomness.md
+    - cheatsheets/faith-over-fear.md
+    - cheatsheets/frequently-used-commands-alice.md
+    - cheatsheets/frequently-used-commands-pandora.md
+    - cheatsheets/in-gnome-terminal-window.md
+    - cheatsheets/jitsi-self-hosting.md
+    - cheatsheets/mongo-db.md
+    - cheatsheets/nodejs-signale-logger.md
+    - cheatsheets/opendns.md
+    - cheatsheets/portainer-standalone.md
+    - cheatsheets/progressive-web-apps.md
+    - cheatsheets/sandbox-a-browser-awindow-within-a-new-data-dir.md
+    - cheatsheets/why-i-choose-spotify-as-a-port-of-a-whole-and-balanced-diet.md
+    - cheatsheets/matrix/index.md
+    - cheatsheets/meteor-js/ddp.md
+    - cheatsheets/meteor-js/dot-env.md
+    - cheatsheets/meteor-js/dot-meteor-slash-packages.md
+    - cheatsheets/meteor-js/meteor-vs-the-world.md
+    - cheatsheets/meteor-js/randomness.md
+    - cheatsheets/async-javascript-self-loading-function.md
+    - cheatsheets/basic-training.md
+    - cheatsheets/bourn-again-scripting.md
+    - cheatsheets/braille-cursors.md
+    - cheatsheets/decentralized-social-proofs.md
+    - cheatsheets/koad-io-template-helpers.md
+    - cheatsheets/meteor-js/create-new-user.md
+    - cheatsheets/meteor-js/roles.md
+    - cheatsheets/meteor-js/shell.md
