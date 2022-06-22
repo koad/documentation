@@ -33,8 +33,6 @@ projects can show up at any time, prepare to capture them and push them into a r
 
 You likely already don't remember any phone numbers, because you `trust your system` and your mind has been able to `let it go`.
 
-This is not about security, privacy and freedom.  It is about skill+abilities, connectedness and `ease of flow`. `Security, privacy and freedom` just happen to get dealt with as a matter of principal.
-
 The more you can `just get it done` in `the moment` the more you will get done.  If you can out perform your competition, you will most certainly achieve more of what you want.
 
 ---
