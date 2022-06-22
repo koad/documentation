@@ -1,11 +1,17 @@
 # nginx - program cheatsheet
 
-## isnstall
+## install
+### nginx
 
 ```bash
-$ apt-get update
-$ sudo apt-get install certbot
-$ apt-get install python-certbot-nginx
+sudo apt-get install nginx 
+```
+### certbot
+because no ssl means no service.
+
+```bash
+sudo apt-get install certbot
+apt-get install python3-certbot-nginx
 ```
 [ref](https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/)
 
