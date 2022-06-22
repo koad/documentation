@@ -4,13 +4,13 @@ set some enviroment variables, then the following commands would work out of the
 ```bash
 export KOAD_IO_ENTITY=marsha
 export DB_USER_NAME=$KOAD_IO_ENTITY
-export DB_USER_PASS=$(dd if=/dev/urandom bs=1 count=32 2>/dev/null | base64 -w 0 | rev | cut -b 2- | rev)
+export DB_USER_PASS=$(cat /dev/random | tr -dc '[:alnum:]' | head -c 40 2>/dev/null | base64 -w 0 | rev | cut -b 4- | rev)
 export DB_HOST=10.10.10.11 # The host inside my overlay
-export DB_PORT=27017
+export DB_PORT=27017 # this should be changed to something a little more discrete
 export DB_NAME=$KOAD_IO_ENTITY
 
-export DB_ROOT_INIT_USERNAME=koad
-export DB_ROOT_INIT_PASSWORD=$(dd if=/dev/urandom bs=1 count=32 2>/dev/null | base64 -w 0 | rev | cut -b 2- | rev)
+export INIT_ROOT_USERNAME=koad
+export INIT_ROOT_PASSWORD=$(cat /dev/random | tr -dc '[:alnum:]' | head -c 40 2>/dev/null | base64 -w 0 | rev | cut -b 4- | rev)
 ```
 
 
@@ -19,10 +19,15 @@ if you use the previous commands, you should also print out the passwords rthat 
 echo && \
 echo "generated two passwords, copy and paste them somewhere safe!" && \
 echo DB_USER_PASS=$DB_USER_PASS && \
-echo DB_ROOT_INIT_PASSWORD=$DB_ROOT_INIT_PASSWORD && echo
+echo INIT_ROOT_PASSWORD=$INIT_ROOT_PASSWORD && echo
 ```
 
-maybe you want to use this as a state DB for a koad:io entity? .. paste the the passwords in the entity's `.env` file.
+may as well print it all out, so you can copy it somewhere safe.
+```bash
+echo && echo && echo ENTITY=$ENTITY && echo INIT_ROOT_USERNAME=$INIT_ROOT_USERNAME && echo INIT_ROOT_PASSWORD=$INIT_ROOT_PASSWORD&& echo DB_USER_NAME=$DB_USER_NAME && echo DB_USER_PASS=$DB_USER_PASS && echo DB_HOST=$DB_HOST && echo DB_PORT=$DB_PORT && echo DB_NAME=$DB_NAME  && echo
+```
+
+maybe you want to use this as a state DB for a koad:io entity? .. paste output of the previous command in the entity's `.env` file.
 ```bash
 echo && echo "$KOAD_IO_ENTITY's .env file > $HOME/.$KOAD_IO_ENTITY/".env && echo
 ```
@@ -38,15 +43,21 @@ docker run --name $KOAD_IO_ENTITYs-mongodb -d -p $DB_HOST:$DB_PORT:27017 -v /hom
 
 ### connect
 
+#### as admin
+
+create the DB and shit, use [this page as guidance](https://book.koad.sh/setup/create-state-database/)
+
+```bash
+mongo --host $DB_HOST:$DB_PORT -u $INIT_ROOT_USERNAME -p $INIT_ROOT_PASSWORD --authenticationDatabase admin
+```
+
+#### as user/entity
+
 use this to find out your string
 MONGO_URL=mongodb://DB_USER_NAME:DB_USER_PASS@DB_HOST:DB_PORT/DB_NAME
 ```bash
 echo "MONGO_URL=mongodb://$DB_USER_NAME:$DB_USER_PASS@$DB_HOST:$DB_PORT/$DB_NAME"
-```
-
-connect via another container
-```bash
-docker run -d --name MYAPP -e MONGODB_CONNSTRING=mongodb+srv://username:password@clusterURL MYAPP:1.0
+mongo --host $DB_HOST:$DB_PORT -u $DB_USER_NAME -p $DB_USER_PASS --authenticationDatabase $DB_NAME
 ```
 
 ## hmmm..
