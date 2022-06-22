@@ -12,7 +12,7 @@ prepare your env vars
 ```bash
 export CATCHALL_DOMAIN_NAME=zvaniga.com
 export WILDCARD_DOMAIN_NAME=koad.sh
-export LE_NOC_EMAIL=le-$WILDCARD_DOMAIN_NAME@$CATCHALL_DOMAIN_NAME
+export LE_NOC_EMAIL=le-$HOSTNAME@$CATCHALL_DOMAIN_NAME
 ```
 
 call letsencrypt for a new cert
