@@ -47,7 +47,12 @@ sudo ln -s /etc/nginx/sites-available/$DOMAIN_NAME /etc/nginx/sites-enabled/$DOM
 ### obtain a certificate
 let certbot obtain a certificate for us and apply the default nginx SSL configuration like follows: -->
 ```bash
-sudo certbot --rsa-key-size 4096 --nginx -d $DOMAIN_NAME
+sudo certbot certonly --rsa-key-size 4096 --nginx -d $DOMAIN_NAME
+```
+
+or using webroot
+```bash
+sudo certbot certonly --rsa-key-size 4096 --webroot --webroot-path /var/www/html -d $DOMAIN_NAME
 ```
 
 
