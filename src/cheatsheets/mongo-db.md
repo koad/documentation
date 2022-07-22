@@ -38,7 +38,7 @@ I'll use my personal overlay for DB_HOST, this way nobody can connect to it unle
 ### create
 your DB using docker,
 ```bash
-docker run --name $KOAD_IO_ENTITYs-mongodb -d -p $DB_HOST:$DB_PORT:27017 -v /home/koad/.$KOAD_IO_ENTITY/database/mongo:/data/db -e MONGO_INITDB_ROOT_USERNAME=$INIT_ROOT_USERNAME -e MONGO_INITDB_ROOT_PASSWORD=$INIT_ROOT_PASSWORD mongo 
+docker run --name $KOAD_IO_ENTITY-mongodb -d -p $DB_HOST:$DB_PORT:27017 -v /home/koad/.$KOAD_IO_ENTITY/database/mongo:/data/db -e MONGO_INITDB_ROOT_USERNAME=$INIT_ROOT_USERNAME -e MONGO_INITDB_ROOT_PASSWORD=$INIT_ROOT_PASSWORD mongo 
 ```
 
 ### connect
