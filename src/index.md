@@ -11,7 +11,7 @@ hide:
 
 ---
 
-## The rise of a new dimension of space-time.  
+## The rise of a new dimension of space-time.
 
 You can now build things and ideas in a space that is eternal.  The singularity will happen to you when you let your brain enjoy the tools of this new space-time and join others in communities of like mind.  Your work done today can be built upon by future versions of yourself; provided it has been collected, processed, organized, reviewed and acted on.  This process is the key.
 
@@ -19,7 +19,7 @@ You can now build things and ideas in a space that is eternal.  The singularity 
 
 Simple single-use apps can be tied together in your mind and project boards.  You do not need or want any `all-in-one` app or device which will always result in less capable overall abilities. 
 
-## Thoughts become things  
+## Thoughts become things
 
 - these are your projects
 - a project is an idea that drives you to action

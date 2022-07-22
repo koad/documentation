@@ -1,7 +1,7 @@
 ## 👋 hello everyone.
 
 
-###  You're too early!
+### You're too early!
 
 Dinner isn't ready yet; it will take some time to bake.
 
