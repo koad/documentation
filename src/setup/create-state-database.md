@@ -42,14 +42,18 @@ mongo --host 127.0.0.1 -u koad -p PUT_MONGODB_ROOT_PASSWORD_HERE --authenticatio
 
 Create a new database and user for some app somewhere
 ```mongodb
-use seraph
+use alice
 db.createUser(
-    {
-      user: "seraph",
-      pwd: "t7y3n0790xb7zr836f",
-      roles: ["readWrite"]
-    }
+  {
+    user: "alice",
+    pwd: "somerandompassword",
+    roles: ["readWrite"],
+    mechanisms:[  
+      "SCRAM-SHA-1"
+    ]
+  }
 )
+
 ```
 
 ## Maintain
