@@ -1,5 +1,7 @@
 Sometimes you dont want the whole browser, maybe you only want the single page.
 
+> TODO: Something is messed up here,. maybe chromium changed how they use the window class?.. investigate.
+
 My personal MP3 player
 ```bash
 chromium --app=https://disco.koad.sh --class=discokoadsh $* >/dev/null 2>/dev/null & disown
