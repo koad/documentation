@@ -24,7 +24,7 @@ echo INIT_ROOT_PASSWORD=$INIT_ROOT_PASSWORD && echo
 
 may as well print it all out, so you can copy it somewhere safe.
 ```bash
-echo && echo && echo ENTITY=$ENTITY && echo INIT_ROOT_USERNAME=$INIT_ROOT_USERNAME && echo INIT_ROOT_PASSWORD=$INIT_ROOT_PASSWORD&& echo DB_USER_NAME=$DB_USER_NAME && echo DB_USER_PASS=$DB_USER_PASS && echo DB_HOST=$DB_HOST && echo DB_PORT=$DB_PORT && echo DB_NAME=$DB_NAME  && echo
+echo && echo && echo KOAD_IO_ENTITY=$KOAD_IO_ENTITY && echo INIT_ROOT_USERNAME=$INIT_ROOT_USERNAME && echo INIT_ROOT_PASSWORD=$INIT_ROOT_PASSWORD&& echo DB_USER_NAME=$DB_USER_NAME && echo DB_USER_PASS=$DB_USER_PASS && echo DB_HOST=$DB_HOST && echo DB_PORT=$DB_PORT && echo DB_NAME=$DB_NAME  && echo
 ```
 
 maybe you want to use this as a state DB for a koad:io entity? .. paste output of the previous command in the entity's `.env` file.
@@ -38,7 +38,7 @@ I'll use my personal overlay for DB_HOST, this way nobody can connect to it unle
 ### create
 your DB using docker,
 ```bash
-docker run --name $KOAD_IO_ENTITY-mongodb -d -p $DB_HOST:$DB_PORT:27017 -v /home/koad/.$KOAD_IO_ENTITY/database/mongo:/data/db -e MONGO_INITDB_ROOT_USERNAME=$INIT_ROOT_USERNAME -e MONGO_INITDB_ROOT_PASSWORD=$INIT_ROOT_PASSWORD mongo 
+docker run --name $DB_NAME -d -p $DB_HOST:$DB_PORT:27017 -v /home/koad/.$KOAD_IO_ENTITY/database/mongo:/data/db -e MONGO_INITDB_ROOT_USERNAME=$INIT_ROOT_USERNAME -e MONGO_INITDB_ROOT_PASSWORD=$INIT_ROOT_PASSWORD mongo 
 ```
 
 ### connect
