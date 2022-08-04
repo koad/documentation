@@ -88,3 +88,14 @@ Meteor.startup(() => {
 });
 
 ```
+
+
+## or
+
+You can tell the router to shut it's face if you aren't planning on having any client side routes at all and want to server the app instead of deal 404 errors.. 
+
+```js
+Router.configure({
+  noRoutesTemplate: true
+});
+```
