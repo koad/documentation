@@ -591,7 +591,7 @@ shopt -s histverify   # Don’t execute expanded result immediately
 !! can be replaced with any valid expansion i.e. !cat, !-2, !42, etc.
 ```
 
-###  Miscellaneous
+### Miscellaneous
 
 #### Numeric calculations
 ```bash
@@ -770,6 +770,28 @@ echo $seconds' sec'
 
 echo 'Formatted:'
 awk -v t=$seconds 'BEGIN{t=int(t*1000); printf "%d:%02d:%02d\n", t/3600000, t/60000%60, t/1000%60}'
+```
+
+#### assert sudo
+```bash
+if [ "${UID}" != "0" ]; then
+  echo "You must be root to run this script"
+  exit 1
+fi
+```
+
+
+#### search for an existing argument
+```bash
+argExists=0
+while [ $# -gt 0 ]; do
+  case "${1}" in
+   -e|--example)
+      argExists=1
+      shift;;
+    *)
+  esac
+done
 ```
 
 
