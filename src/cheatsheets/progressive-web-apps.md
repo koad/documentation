@@ -1,5 +1,7 @@
 
-Considerations
+Progressive Web Apps have the advantage of being installable and live on a device without the need for an app store. And, part of the process is the Web App Manifest which allows developers to control how an app appears and how it's launched. Also, web designers/front end developers will already have the skillset needed to start building immediately. There's no need to learn a new language, unlike native apps. 
+
+## Considerations
 - WebAPK - Google Play server will create an APK (Android Package, a native app container) on the fly and install it in the device as if it's coming from the Play Store
 - custom web app installation banner
 - sharable content buttons
@@ -8,6 +10,22 @@ Considerations
 - data in the background
 - pseudo-browsers suck -> https://www.npmjs.com/package/is-webview
 - publishing to stores
+- trusted web acivities wrapper APK > https://developers.google.com/web/updates/2017/10/using-twa
+
+## examples
+
+using [github://onderceylan/pwa-asset-generator](https://github.com/onderceylan/pwa-asset-generator)
+### generate app icons
+```sh
+pwa-asset-generator icon.png ./assets --padding "6px" --icon-only --favicon --background "#FFF" --maskable false --type png
+```
+
+### generate ios splash screen
+```sh
+pwa-asset-generator banner-transparent.png ./assets --splash-only --xhtml --single-quotes
+```
+
+
 
 ### custom web app installation banner
 
