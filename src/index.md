@@ -7,13 +7,26 @@ hide:
 # My sweetest friend
 <!-- # Why are you _now_ __here__? -->
 
-## If you are a _low-tech person_, it would benefit you the most to take a pass through the first half of the [getting started](https://docs.koad.sh/getting-started/) guide.  It outlines basic understandings anyone with internet access should possess.  A little bit of knowledge can go a long way to help you stay safe online.
+## If you are a _low-tech person_, it would benefit you the most to take a pass through the first half of the [getting started](https://docs.koad.sh/getting-started/) guide.  Even though alot of pages are empty, the sections here outline topics that anyone with internet access should be aware of.  A little bit of knowledge can go a long way to help you stay safe online.
 
 ---
 
+# Under Contstruction
+
+These pages come from the depth of decades worth of exploration and play.  They are not complete nor are they expected to ever become complete.  
+
+If you want to contribute knowledge please find your way to [https://github.com/koad/documentation](https://github.com/koad/documentation) where you can fork and submit pull requests. 
+
+---
+
+# Concept
+
+It's all in your mind;  Your files and folders are being tracked by your mind and therefore are an extention of your mind.  Organizing thoughts includes organizing files/folders.   Your projects, project support material and thoughts are all the same thing.
+
+
 ## The rise of a new dimension of space-time.
 
-You can now build things and ideas in a space that is eternal.  The singularity will happen to you when you let your brain enjoy the tools of this new space-time and join others in communities of like mind.  Your work done today can be built upon by future versions of yourself; provided it has been collected, processed, organized, reviewed and acted on.  This process is the key.
+You can now build things and ideas in a space that is eternal (files/folders don't ever have to die/entropy).  The singularity will happen to you when you let your brain enjoy the tools of this new space-time and join others in communities of like mind.  Your work done today can be built upon by future versions of yourself; provided it has been collected, processed, organized, reviewed and acted on.  This process is the key.
 
 ## Keep it simple and stupid.
 
