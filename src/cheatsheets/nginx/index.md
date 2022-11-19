@@ -56,7 +56,7 @@ sudo certbot certonly --rsa-key-size 4096 --webroot --webroot-path /var/www/html
 ```
 
 
-## pay attention
+### pay attention
 when using lets encrypt, be sure to read the output.
 ```
 IMPORTANT NOTES:
@@ -65,4 +65,40 @@ IMPORTANT NOTES:
    secure backup of this folder now. This configuration directory will
    also contain certificates and private keys obtained by Certbot so
    making regular backups of this folder is ideal.
+```
+
+
+## Redirects
+
+### 301 permanently
+this will redirect your site, permanently
+```
+location /old.html {
+rewrite ^(.*)$ https://mywebsite.com/new.html permanent;
+}
+```
+
+### 302 temporarily
+this will redirect your site
+```
+location /old.html {
+rewrite ^(.*)$ https://mywebsite.com/new.html redirect;
+}
+```
+
+from one domain to another
+```
+server {
+      listen 80;
+      hostname mywebsite.com www.mywebsite.com;
+      rewrite ^ http://mynewwebsite.com$request_uri? redirect;
+}
+```
+
+from  www to non-www
+```
+server {
+    server_name www.devisers.in;
+    return 301 $scheme://devisers.in$request_uri;
+}
 ```
