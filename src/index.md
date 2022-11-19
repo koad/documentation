@@ -37,7 +37,7 @@ Simple single-use apps can be tied together in your mind and project boards.  Yo
 - these are your projects
 - a project is an idea that drives you to action
 
-projects can show up at any time, prepare to capture them and push them into a reliable system to accomplish any actionable items that are required to complete the `project`
+projects can be inspired at any time, prepare to capture them and push them into a reliable system to accomplish any actionable items that are required to complete the `project` and achive your desired goals.
 
 <!-- "in the beginning, __God said__" -->
 
@@ -46,7 +46,15 @@ projects can show up at any time, prepare to capture them and push them into a r
 
 You likely already don't remember any phone numbers, because you `trust your system` and your mind has been able to `let it go`.
 
-The more you can `just get it done` in `the moment` the more you will get done.  If you can out perform your competition, you will most certainly achieve more of what you want.
+The more you can `just get it done` in `the moment` the more you will get done.  If will out perform your competition and most certainly achieve more of what you want to achive in life.
+
+
+## The time is Now.
+
+1) Organize your projects with [GTD](/reference/books/gtd-getting-things-done/).  
+2) Get into alignment with your projects using [the amazing power of deliberate intent](/reference/books/the-amazing-power-of-deliberate-intent/).  
+
+then, and only then, attempt to [digitize your world](/getting-started/).
 
 ---
 
@@ -59,3 +67,9 @@ Once you are up to speed, come play with me!
 
 
 [![Matrix](/assets/badges/matrix/documentation.svg)](https://matrix.to/#/#documentation:koad.sh?via=koad.sh)
+
+
+
+# DISCLAIMER
+
+I'm not talking to you, I am talking to myself here.  The content within is not intended to constitute advice, diagnosis, or treatment. Never disregard professional advice or delay in seeking it because of something you have read or heard on the internet.
