@@ -1,6 +1,6 @@
-# Start Here
+# Getting Started
 
-if you want to remain productive and focused in a world of data breaches, mass surveillance and narrative media;  you need to install the tools and methodologies available to help you into your daily routines.
+Internet privacy and data storage are critical issues that require attention and responsibility from individuals and organizations alike. By acknowledging your responsibilities and taking steps to protect personal data, you help promote a culture of data privacy and security, which is essential for protecting individuals and society as a whole from cyber threats and data breaches.
 
 the data that you have generated over your life time is `a part of you`.  You might not recognize it, but your data has become one of the most valuable assets you have.
 

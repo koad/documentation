@@ -7,7 +7,7 @@ hide:
 # My sweetest friend
 <!-- # Why are you _now_ __here__? -->
 
-## If you are a _low-tech person_, it would benefit you the most to take a pass through the first half of the [getting started](https://docs.koad.sh/getting-started/) guide.  Even though alot of pages are empty, the sections here outline topics that anyone with internet access should be aware of.  A little bit of knowledge can go a long way to help you stay safe online.
+## If you are a _low-tech person_, it would benefit you the most to take a pass through the first half of the [getting started](https://docs.koad.sh/getting-started/) guide and learn how to protect yourself against scammers.
 
 ---
 

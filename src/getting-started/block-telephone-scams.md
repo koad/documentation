@@ -1,0 +1,10 @@
+Telephone scams, also known as vishing scams, can be difficult to detect and can cause serious harm if you fall for them. Here are some tips on how to avoid telephone scams:
+
+- Be wary of unsolicited calls: If you receive an unexpected call from someone claiming to be from a company or organization, be cautious. Scammers may use fake caller ID information to make it appear as though they're calling from a legitimate organization, so be sure to verify their identity before providing any personal information.  
+- Don't provide personal information: Never provide personal information, such as your Social Security number, credit card number, or bank account information, over the phone unless you initiated the call and are certain that the person you're speaking with is legitimate.  
+- Don't be pressured: Scammers often use high-pressure tactics to try to get you to provide personal information or make a payment. If you feel uncomfortable or suspicious, hang up the phone.  
+- Verify the caller's identity: If someone claims to be from a company or organization, ask for their name and contact information, and then verify their identity by calling the company or organization directly. Use the contact information listed on their website or a trusted directory to ensure that you're calling the legitimate organization.  
+- Keep your personal information private: Be cautious about sharing your personal information, including your phone number, on social media or other public forums. Scammers may use this information to target you with vishing scams.  
+- Use call blocking: Many phone companies offer call blocking services that can help you block unwanted calls and reduce the number of scam calls you receive. You can also use call blocking apps or features on your phone to block unwanted calls.  
+
+By following these tips, you can help protect yourself against telephone scams and reduce the risk of falling victim to vishing attacks.
