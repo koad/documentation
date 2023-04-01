@@ -130,10 +130,27 @@ nav:
     - getting-started/in-review.md
     - getting-started/sharing-is-caring.md
 
-  - Books:
-    - reference/books/index.md
-    - The Book of the Way: reference/books/lao-tzu-the-book-of-the-way.md
-    - Getting Things Done (GTD): reference/books/gtd-getting-things-done.md
-    - New Local Economy: reference/books/new-local-economy.md
-    - The Amazing Power of Deliberate Intent: reference/books/the-amazing-power-of-deliberate-intent.md
-    - reference/books/digital-minimalism.md
+  - Blockchain 101:
+    - blockchain-101/index.md
+    - blockchain-101/how-to-stay-safe.md
+    - blockchain-101/common-blockchain-terms.md
+    - blockchain-101/what-is-a-fork.md
+    - blockchain-101/what-is-a-mainnet.md
+    - blockchain-101/what-is-a-protocol.md
+    - blockchain-101/what-is-a-sidechain.md
+    - blockchain-101/what-is-atomic.md
+    - blockchain-101/what-is-a-wallet.md
+    - blockchain-101/what-is-a-whitepaper.md
+    - blockchain-101/what-are-bips.md
+    - blockchain-101/what-is-consensus.md
+    - blockchain-101/what-is-decentralized.md
+    - blockchain-101/what-is-erc.md
+    - blockchain-101/what-is-fungible.md
+    - blockchain-101/what-is-public-key-infrastructure.md
+    - blockchain-101/what-is-supply.md
+    - blockchain-101/what-is-mining.md
+
+    - blockchain-101/proof-of-proof.md
+    - blockchain-101/attacking-the-blockchain.md
+    - blockchain-101/mining-the-blockchain.md
+
