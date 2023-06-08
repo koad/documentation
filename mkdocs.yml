@@ -14,7 +14,7 @@ extra_css:
   - stylesheets/extra.css
 
 # Copyright
-copyright: Copyright &copy; 2022
+copyright: Copyright &copy; 2023
 
 
 # Configuration
@@ -70,7 +70,6 @@ theme:
   favicon: assets/favicon.png
   icon:
     repo: fontawesome/brands/github-alt
-
 
 # Customization
 extra:
@@ -130,27 +129,51 @@ nav:
     - getting-started/in-review.md
     - getting-started/sharing-is-caring.md
 
+  - Mindspace 101:
+    - mindspace/index.md
+    - mindspace/david-allen.md
+    - mindspace/dr-joe-dispenza.md
+    - mindspace/ester-hicks.md
+
   - Blockchain 101:
-    - blockchain-101/index.md
-    - blockchain-101/how-to-stay-safe.md
-    - blockchain-101/common-blockchain-terms.md
-    - blockchain-101/what-is-a-fork.md
-    - blockchain-101/what-is-a-mainnet.md
-    - blockchain-101/what-is-a-protocol.md
-    - blockchain-101/what-is-a-sidechain.md
-    - blockchain-101/what-is-atomic.md
-    - blockchain-101/what-is-a-wallet.md
-    - blockchain-101/what-is-a-whitepaper.md
-    - blockchain-101/what-are-bips.md
-    - blockchain-101/what-is-consensus.md
-    - blockchain-101/what-is-decentralized.md
-    - blockchain-101/what-is-erc.md
-    - blockchain-101/what-is-fungible.md
-    - blockchain-101/what-is-public-key-infrastructure.md
-    - blockchain-101/what-is-supply.md
-    - blockchain-101/what-is-mining.md
+    - blockchain/index.md
+    - blockchain/how-to-stay-safe.md
+    - blockchain/common-blockchain-terms.md
+    - blockchain/what-is-a-fork.md
+    - blockchain/what-is-a-mainnet.md
+    - blockchain/what-is-a-protocol.md
+    - blockchain/what-is-a-sidechain.md
+    - blockchain/what-is-atomic.md
+    - blockchain/what-is-a-wallet.md
+    - blockchain/what-is-a-whitepaper.md
+    - blockchain/what-are-bips.md
+    - blockchain/what-is-consensus.md
+    - blockchain/what-is-decentralized.md
+    - blockchain/what-is-erc.md
+    - blockchain/what-is-fungible.md
+    - blockchain/what-is-public-key-infrastructure.md
+    - blockchain/what-is-supply.md
+    - blockchain/what-is-mining.md
+    - blockchain/proof-of-proof.md
+    - blockchain/attacking-the-blockchain.md
+    - blockchain/mining-the-blockchain.md
 
-    - blockchain-101/proof-of-proof.md
-    - blockchain-101/attacking-the-blockchain.md
-    - blockchain-101/mining-the-blockchain.md
+  - Invite Only:
+    - invite-only/index.md
+    
+    - invite-only/hitchhiking-the-digital-highway.md
+    - invite-only/digital-hitchhikers-toolkit.md
 
+    - invite-only/reimagining-online-communities.md
+    - invite-only/future-of-digital-communities.md
+    - invite-only/building-trust-and-authenticity.md
+
+    - invite-only/sovereignty-proofs-and-currency.md
+    - invite-only/investing-in-each-other.md
+    - invite-only/community-currencies.md
+
+    - invite-only/the-power-of-invitation.md
+    - invite-only/the-power-of-perception.md
+    - invite-only/trust-is-key.md
+
+    - invite-only/conclusion.md
