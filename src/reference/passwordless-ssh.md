@@ -9,6 +9,9 @@ export KOAD_IO_INSTANCE=hazes
 export KOAD_IO_PROD_HOST=htwo
 ```
 
+
+
+
 ## generate 
 
 for your koad:io entity
@@ -33,21 +36,29 @@ without an entity or anything, regular user.
 ssh-copy-id koad@flowbie
 ```
 
+
+
 ## play 
 
 ### login
 ```bash
+alice ssh wonderland
+```
+
+is same as 
+```bash
 ssh -i $HOME/.$KOAD_IO_INSTANCE/id/rsa $KOAD_IO_INSTANCE@$KOAD_IO_PROD_HOST
 ```
-is same as 
-```bash
-$KOAD_IO_INSTANCE ssh $KOAD_IO_PROD_HOST
-```
+
 ### send file
+
 ```bash
-$KOAD_IO_INSTANCE scp $HOME/.$KOAD_IO_INSTANCE/.env $KOAD_IO_PROD_HOST:/home/$KOAD_IO_INSTANCE/.env
+alice upload /home/koad/.alice/.env alice@wonderland:/home/alice/.env
 ```
-is same as 
+is same as
+```bash
+scp -i /home/koad/.alice/id_rsa /home/koad/.alice/.env alice@wonderland:/home/alice/.env
+```
 ```bash
 scp -i $HOME/.$KOAD_IO_INSTANCE/id_rsa  $HOME/.$KOAD_IO_INSTANCE/.env $KOAD_IO_INSTANCE@$KOAD_IO_PROD_HOST:/home/$KOAD_IO_INSTANCE/.env
 ```
