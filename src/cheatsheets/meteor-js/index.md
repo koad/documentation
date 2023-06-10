@@ -1,6 +1,16 @@
 # meteorjs - tool cheatsheet
 
-> Meteor is an open source framework for seamlessly building and deploying Web, Mobile, and Desktop applications in Javascript.  
+MeteorJS is a full-stack JavaScript platform that allows developers to build modern web applications quickly and easily. 
+
+Here are some of the benefits of using MeteorJS:
+
+- Rapid development: MeteorJS provides a simple and easy-to-use framework for building web applications. This makes it faster to build prototypes and get your application up and running quickly.  
+- Real-time updates: MeteorJS includes real-time updates out of the box, which means that changes made to the database or application are immediately reflected on the user's screen. This is ideal for applications that require real-time collaboration or frequent updates.  
+- Cross-platform support: MeteorJS supports multiple platforms including web, iOS, and Android. This allows developers to build applications that can be deployed on multiple platforms using the same codebase.  
+- Modular architecture: MeteorJS uses a modular architecture that allows developers to build applications using small, reusable components. This makes it easier to maintain and update your application over time.  
+- Large community: MeteorJS has a large and active community of developers who are constantly contributing to the platform. This means that there are many resources available for learning and troubleshooting issues.  
+Integration with other technologies: MeteorJS integrates easily with other technologies such as React, Angular, and MongoDB. This makes it easy to use the best tools for each aspect of your application.
+
 [meteor.com](https://www.meteor.com/)
 
 ## program cheatsheet
