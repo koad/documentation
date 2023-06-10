@@ -38,3 +38,15 @@ Below are some commonly used command line flags for launching Chromium. These fl
 
 Remember to adjust the command based on your specific needs, operating system, and Chromium version.
 
+
+## Window Size
+
+You can specify the window size when launching Chromium by using the `--window-size` flag. Here's an example command:
+
+```bash
+chromium-browser --user-data-dir=/path/to/data/dir --no-first-run --window-size=800,600
+```
+
+In the above command, the `--window-size` flag is followed by the desired width and height values separated by a comma. Replace `800` with the desired width in pixels, and `600` with the desired height in pixels.
+
+
