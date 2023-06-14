@@ -37,7 +37,7 @@ db.auth( "koad", "PUT_MONGODB_ROOT_PASSWORD_HERE")
 
 Connect to dabrain's mongo instance as root
 ```bash
-mongo --host 127.0.0.1 -u koad -p PUT_MONGODB_ROOT_PASSWORD_HERE --authenticationDatabase admin
+mongo --host $DB_HOST:$DB_PORT -u $INIT_ROOT_USERNAME -p $INIT_ROOT_PASSWORD --authenticationDatabase admin
 ```
 
 Create a new database and user for some app somewhere
