@@ -52,7 +52,7 @@ meteor create --bare src && \
 cp -Rf ~/.koad-io/skeletons/progressive/* ./
 ```
 
-use your [`entity`](https://book.koad.sh/reference/koad-io-entity/) to create this same setup in the `usual place`
+use your [`entity`](/reference/koad-io-entity/) to create this same setup in the `usual place`
 ```bash
 alice create site --progressive example.koad.sh
 ```
@@ -76,8 +76,8 @@ export MONGO_URL=false
 ```
 
 ## file specific cheatsheets
-file: [`src/.meteor/packages`](/cheatsheets/meteor-js/dot-meteor-slash-packages)  
-file: [`.env`](/cheatsheets/meteor-js/dot-env)  
+file: [`src/.meteor/packages`](dot-meteor-slash-packages.md)  
+file: [`.env`](dot-env.md)  
 
 ## links
 

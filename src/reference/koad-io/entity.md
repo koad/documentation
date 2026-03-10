@@ -18,7 +18,7 @@ ie: `~/`+`dot`+`alice`
 /home/koad/.alice
 ```
 
-> It is best to encrypt this folder using [a PGP key; do you have one?](https://book.koad.sh/reference/generate-keybase-gpg-key/)
+> It is best to encrypt this folder using [a PGP key; do you have one?](/reference/generate-keybase-gpg-key/)
 
 
 I can interact with an `entity` simply by issuing commands.
@@ -87,7 +87,7 @@ koad-io "$@";
 
 ## portability
 
-`KOAD_IO_ENABLE_PORTABLITY` if you want to contain on an external drive and use it on multiple devices.  [read before flight](https://book.koad.sh/reference/koad-io-entity/)  
+`KOAD_IO_ENABLE_PORTABLITY` if you want to contain on an external drive and use it on multiple devices.  [read before flight](/reference/koad-io-entity/)  
 
 - must also specify `KOAD_IO_ENV_LOCATION`
 
@@ -184,8 +184,8 @@ these files are normally the start of everything.  fill these out before running
 | what                      | where     | why  |  default  |  
 | ------------------------- | --------- | ------------------------------------ | ---------- |
 | `ENTITY`  | global | use this in your own creations | `alice` |
-| `CATCHALL_DOMAIN_NAME`    | [wildcard-cert](/setup/lets-encrypt-wildcard-cert) | inbound email address generation | |
-| `WILDCARD_DOMAIN_NAME`    | [wildcard-cert](/setup/lets-encrypt-wildcard-cert) | private inbound subdomain generation | |
+| `CATCHALL_DOMAIN_NAME`    | [wildcard-cert](../programs/lets-encrypt-wildcard-cert.md) | inbound email address generation | |
+| `WILDCARD_DOMAIN_NAME`    | [wildcard-cert](../programs/lets-encrypt-wildcard-cert.md) | private inbound subdomain generation | |
 | `KOAD_IO_INSTANCE` | all koad:io | the entity containment| `$ENTITY` |
 | `KOAD_IO_HOST` | all koad:io | the host to runs the production env | `$HOSTNAME` |
 | `KOAD_IO_USER` | all koad:io | the user who runs in production | `$USER` |

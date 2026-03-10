@@ -1,14 +1,14 @@
 # `.env` - file cheatsheet
-file: [`~/.koad-io/.env`](/cheatsheets/meteor-js/dot-env)  
+file: [`~/.koad-io/.env`](dot-env.md)  
 
 this file exists in many places.  be mindful of stacking
 
 ### koad:io installation
-file: [`.env`](/cheatsheets/meteor-js/dot-env)  
+file: [`.env`](dot-env.md)  
 Don't put things here except for hardware related things. Using the koad-io bare installation is not recommended and may result in unintended consequences.
 
 ### Standard koad:io entity
-file: [`~/.alice/.env`](/cheatsheets/meteor-js/dot-env)  
+file: [`~/.alice/.env`](dot-env.md)  
 ```env
 KOAD_IO_INSTANCE=alice
 KOAD_IO_DOMAIN=koad.sh
@@ -26,7 +26,7 @@ MONGO_URL=mongodb://DB_USER_NAME:DB_USER_PASS@DB_HOST:DB_PORT/DB_NAME
 ```
 
 ### Standard koad:io website
-file: [`~/.alice/site/koad.sh/.env`](/cheatsheets/meteor-js/dot-env)  
+file: [`~/.alice/site/koad.sh/.env`](dot-env.md)  
 ```env
 KOAD_IO_DOMAIN=ecoincore.com
 KOAD_IO_DOMAIN_WILDCARD=1
