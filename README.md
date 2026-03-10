@@ -13,8 +13,13 @@ These documentations are served at [//book.koad.sh](https://book.koad.sh)
 ## Run
 
 ```bash
+screen -S book.koad.sh
+```
+
+```bash
 ./start.sh
 ```
+
 
 # 🤝 Support
 
