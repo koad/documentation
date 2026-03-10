@@ -1,5 +1,5 @@
-site_name: book.koad.sh
-site_url: https://book.koad.sh
+site_name: kingofalldata.com
+site_url: https://kingofalldata.com
 site_author: koad
 site_description: >-
   The results of years of broken thoughts.
@@ -10,20 +10,19 @@ repo_url: https://github.com/koad/documentation
 edit_uri: ""
 docs_dir: src/
 
+extra_javascript:
+  - piwik.js
+
 extra_css:
   - stylesheets/extra.css
 
 # Copyright
-copyright: Copyright &copy; 2023
-
+copyright: Copyright &copy; 2026
 
 # Configuration
 theme:
-
   name: material
-
   logo: assets/avatar.png
-
 
   # Static files
   static_templates:
@@ -37,6 +36,7 @@ theme:
   language: en
   features:
     - content.code.annotate
+    - content.code.copy
     - content.tabs.link
     # - header.autohide
     # - navigation.expand
@@ -71,6 +71,9 @@ theme:
   icon:
     repo: fontawesome/brands/github-alt
 
+plugins:
+  - search
+
 # Customization
 extra:
   social:
@@ -84,6 +87,9 @@ extra:
   # generator: false
 
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -107,13 +113,14 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - Home: 
     - index.md
-  - Getting started:
+
+  - Internet 101:
     - getting-started/index.md
     - getting-started/hallmarks-of-a-scam.md
     - getting-started/block-email-scams.md
@@ -122,8 +129,12 @@ nav:
     - getting-started/secure-your-surroundings.md
     - getting-started/secure-your-computer.md
     - getting-started/secure-your-phone.md
+    - getting-started/secure-your-vpn.md
+    - getting-started/secure-your-email.md
     - getting-started/secure-your-smart-speaker.md
+    - getting-started/secure-your-cryptocurrency.md
     - getting-started/secure-your-family.md
+    - getting-started/secure-your-backups.md
     - getting-started/picking-your-username.md
     - getting-started/learning-to-search.md
     - getting-started/in-review.md
@@ -131,14 +142,40 @@ nav:
 
   - Mindspace 101:
     - mindspace/index.md
+    - mindspace/abraham-hicks.md
+    - mindspace/a-course-in-miracles.md
+    - mindspace/allan-kardec.md
     - mindspace/david-allen.md
     - mindspace/dr-joe-dispenza.md
-    - mindspace/ester-hicks.md
+    - mindspace/edgar-cayce.md
+    - mindspace/emmet-fox.md
+    - mindspace/joel-s-goldsmith.md
+    - mindspace/joseph-murphy.md
+    - mindspace/neville-goddard.md
+    - mindspace/norman-vincent-peale.md
+    - mindspace/paul-selig.md
+    - mindspace/sri-ramakrishna.md
+    - mindspace/st-germain.md
+    - mindspace/the-seth-material.md
+
+
+
+  # - Mindspace 102:
+  #   - the-technicolor-bus/index.md
+  #   - the-technicolor-bus/02-the-moving-parts.md
+  #   - the-technicolor-bus/03-the-inner-child.md
+  #   - the-technicolor-bus/04-disciplines-of-mind.md
+  #   - the-technicolor-bus/05-the-pilot.md
+  #   - the-technicolor-bus/06-the-monkey-mind.md
+  #   - the-technicolor-bus/07-guilding-principles-study.md
+  #   - the-technicolor-bus/08-parallels.md
+  #   - the-technicolor-bus/09-i-love-you.md
 
   - Blockchain 101:
     - blockchain/index.md
     - blockchain/how-to-stay-safe.md
     - blockchain/common-blockchain-terms.md
+    - blockchain/what-is-a-custodian.md
     - blockchain/what-is-a-fork.md
     - blockchain/what-is-a-mainnet.md
     - blockchain/what-is-a-protocol.md
@@ -146,7 +183,8 @@ nav:
     - blockchain/what-is-atomic.md
     - blockchain/what-is-a-wallet.md
     - blockchain/what-is-a-whitepaper.md
-    - blockchain/what-are-bips.md
+    - blockchain/what-is-bip.md
+    - blockchain/exciting-bips.md
     - blockchain/what-is-consensus.md
     - blockchain/what-is-decentralized.md
     - blockchain/what-is-erc.md
@@ -157,6 +195,39 @@ nav:
     - blockchain/proof-of-proof.md
     - blockchain/attacking-the-blockchain.md
     - blockchain/mining-the-blockchain.md
+
+  - Cooperative Components:
+    - why-i-love/index.md
+    # - why-i-love/god.md
+    - why-i-love/gtd.md
+    - why-i-love/my-abilities.md
+    - why-i-love/this-space-in-time.md
+    - why-i-love/my-mindset.md
+    - why-i-love/keybase.md
+    - why-i-love/linux.md
+    - why-i-love/pgp-keys.md
+    - why-i-love/cairo-dock.md
+    - why-i-love/zerotier.md
+    - why-i-love/bash.md
+    - why-i-love/javascript.md
+    - why-i-love/meteor.md
+    - why-i-love/electron.md
+    - why-i-love/sandstorm.md
+    - why-i-love/rdp-and-vnc.md
+    - why-i-love/catch-all-domain-email.md
+    - why-i-love/wildcard-ssl-with-nginx.md
+    - why-i-love/fido2-2fa.md
+    - why-i-love/groove-basin.md
+    - why-i-love/beatify.md
+    - why-i-love/keyboard-shortcuts.md
+    - why-i-love/xbmc-kodi.md
+    - why-i-love/esp32-and-arduino.md
+    - why-i-love/bitcoin.md
+    - why-i-love/koad-io.md
+    - why-i-love/ecoincore.md
+    - why-i-love/community-coins.md
+    - why-i-love/atomicdex.md
+    - why-i-love/web5.md
 
   - Invite Only:
     - invite-only/index.md
