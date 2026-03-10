@@ -1,5 +1,9 @@
 # What is fungible?
 
+!!! note "TL;DR"
+	Fungible means interchangeable - like dollar bills where any $1 is worth the same as any other $1. NFTs are non-fungible, meaning each one is unique - like a one-of-a-kind painting vs. identical copies of the same book.
+
+---
 
 ## What is a fungible token?
 

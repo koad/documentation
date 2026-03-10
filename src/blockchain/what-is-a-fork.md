@@ -1,5 +1,10 @@
 # What is a fork?
 
+!!! note "TL;DR"
+	A fork is like a road splitting in two - when the crypto community can't agree on rules, the blockchain splits into different versions. Hard forks create completely separate blockchains (like Bitcoin Cash), while soft forks are like adding new traffic rules that old cars can still follow.
+
+---
+
 In the context of blockchain technology, a fork refers to a situation where a blockchain network splits into two or more separate chains, each following a different set of rules. This can occur intentionally or unintentionally and can result in two versions of the blockchain existing simultaneously.
 
 Forks can occur for various reasons, including disagreements among the community or developers on the direction of the project, security vulnerabilities, or upgrades to the network's protocol. A fork can have significant implications for the affected blockchain and its users, including the creation of a new cryptocurrency and changes to the value of existing cryptocurrencies.

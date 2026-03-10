@@ -1,5 +1,9 @@
 # What is a hacker?
 
+!!! note "TL;DR"
+	Hackers come in different flavors: White hats are the good guys who find security holes to help fix them, black hats are the bad guys who break in for personal gain, and red teams are professional hackers companies hire to test their defenses.
+
+---
 
 ## What is a white hat hacker?
 

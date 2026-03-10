@@ -1,5 +1,10 @@
 # What is Atomic?
 
+!!! note "TL;DR"
+	Atomic means "all or nothing" - like a trade that either completes fully or doesn't happen at all. Atomic swaps let you trade crypto directly with someone else without using an exchange, like swapping baseball cards in person where you both hand over your cards at the same time.
+
+---
+
 "Atomic" have different meanings depending on the context, but in the context of blockchain and cryptocurrencies, it generally refers to an operation or transaction that is indivisible or all-or-nothing.
 
 ## What is an atomic swap?

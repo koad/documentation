@@ -1,5 +1,9 @@
 # How do I... ?
 
+!!! note "TL;DR"
+	Getting into crypto is like getting into any investment - choose an exchange (like a crypto stock market), verify your identity, buy what you want, then move it to your own wallet for safety. Selling is the reverse process, and trading is like day trading with crypto pairs.
+
+---
 
 ## How do I buy cryptocurrency?
 

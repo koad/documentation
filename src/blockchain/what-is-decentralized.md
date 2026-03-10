@@ -1,5 +1,10 @@
 # What is decentralized?
 
+!!! note "TL;DR"
+	Decentralized means no single person or company is in charge - like Wikipedia vs. a traditional encyclopedia where everyone contributes. DEXs let you trade directly with others, DAOs are like internet-run companies, and dApps are apps that run on the network instead of company servers.
+
+---
+
 ## What does decentralized mean?
 
 Decentralized refers to a system or network that operates without a central authority or control. In a decentralized system, decision-making and power are distributed among a network of participants, rather than being controlled by a single entity.

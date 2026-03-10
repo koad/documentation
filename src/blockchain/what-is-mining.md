@@ -1,6 +1,11 @@
 
 ## What is mining?
 
+!!! note "TL;DR"
+	Mining is like a digital lottery where computers compete to solve math problems - the winner gets to add the next page to the record book and gets paid in new coins for keeping the system secure.
+
+---
+
 Mining is the process of adding new transactions to a blockchain and verifying them through complex cryptographic calculations. Miners compete to solve mathematical problems, which require substantial computational power, and the first miner to solve the problem is rewarded with a new block of cryptocurrency. This process also serves to secure the network, as each block is linked to the previous block, forming an immutable chain. By providing security and confirming transactions, miners play a crucial role in the functioning of most blockchain networks.
 
 

@@ -1,5 +1,10 @@
 # What is supply?
 
+!!! note "TL;DR"
+	Supply is just how many coins exist - like Bitcoin having only 21 million coins that will ever be made. Circulating supply is coins available now, total supply is the maximum possible, and locked supply is coins held by the team that can't be traded yet.
+
+---
+
 In finance and economics, supply refers to the total amount of a particular good or service that is available in the market. It refers to the quantity of a product that producers are willing to sell at a certain price over a certain period of time. The supply of a product can be influenced by various factors such as production costs, technological advancements, availability of raw materials, and government policies. The relationship between supply and demand determines the price of a product in a free market economy. When the supply of a product increases relative to demand, the price tends to decrease, and vice versa.
 
 ## How is the supply of cryptocurrency determined?
@@ -13,7 +18,7 @@ In summary, the supply of a cryptocurrency is determined by the rules set forth 
 
 ## What is a circulating supply?
 
-Circulating supply refers to the total number of coins or tokens of a particular cryptocurrency that is available for trading in the market. It is the amount of a cryptocurrency that is currently in circulation and available to the public. Circulating supply does not include coins or tokens that are locked or reserved for use by the project team, developers, or other stakeholders. The circulating supply of a cryptocurrency is important because it affects its market capitalization and price, as the price of a cryptocurrency is often calculated based on its circulating supply.
+Circulating supply refers to the total number of coins or tokens of a particular cryptocurrency that is available in the market. It is the amount of a cryptocurrency that is currently in circulation and available to the public. Circulating supply does not include coins or tokens that are locked or reserved for use by the project team, developers, or other stakeholders. The circulating supply of a cryptocurrency is important because it affects its market capitalization and price, as the price of a cryptocurrency is often calculated based on its circulating supply.
 
 
 ## What is a total supply?

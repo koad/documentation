@@ -1,5 +1,10 @@
 # Wallets
 
+!!! note "TL;DR"
+	A crypto wallet doesn't actually store coins - it stores your private keys (like secret passwords) that prove you own your crypto. Think of it as a keychain for your digital money, with different types offering different levels of security and convenience.
+
+---
+
 ## What is a cryptocurrency wallet?
 
 A cryptocurrency wallet is a software program or hardware device that allows you to store, manage, and transfer your digital assets, such as Bitcoin, Ethereum, or any other cryptocurrency.

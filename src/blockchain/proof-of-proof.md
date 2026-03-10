@@ -1,5 +1,10 @@
 ## What is a proof-of-work (PoW) consensus?
 
+!!! note "TL;DR"
+	Different ways to reach agreement in crypto: Proof of Work is like solving puzzles to earn the right to add records, Proof of Stake is like having voting power based on how much you own, and other methods are variations on getting decentralized agreement without central control.
+
+---
+
 Proof-of-work (PoW) is a consensus mechanism used in some blockchain networks to validate transactions and create new blocks in the chain. It is a process that involves solving complex mathematical equations or puzzles, which requires a significant amount of computational power.
 
 In a PoW consensus, nodes on the network compete to solve the puzzle, and the first node to solve it is rewarded with a block of newly minted cryptocurrency. This process is known as mining, and it is used to maintain the security and integrity of the network.

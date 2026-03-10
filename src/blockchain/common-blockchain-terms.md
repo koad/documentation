@@ -1,5 +1,9 @@
 # Common blockchain things
 
+!!! note "TL;DR"
+	These are the basic building blocks of crypto - your seed phrase is your master password, hash rate is mining power, market cap is total value, and blocks are like pages in the digital record book that can never be erased.
+
+---
 
 ## What is a passphrase / recovery seed phrase?
 

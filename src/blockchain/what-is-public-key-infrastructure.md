@@ -1,5 +1,10 @@
 # What is a public key infrastructure (PKI)?
 
+!!! note "TL;DR"
+	Public keys are like your bank account number (safe to share), private keys are like your PIN code (never share). PKI is the system that makes this work - it's like having a digital ID system where you can prove who you are without showing your secrets.
+
+---
+
 A Public Key Infrastructure (PKI) is a set of protocols, policies, and procedures used to manage digital certificates and public-key encryption. It provides a framework for managing the entire lifecycle of digital certificates, including their issuance, distribution, validation, and revocation.
 
 In a PKI system, a trusted third party, known as a Certificate Authority (CA), is responsible for issuing and managing digital certificates. Digital certificates are electronic documents that are used to verify the identity of individuals, organizations, and devices in a secure and trusted manner.

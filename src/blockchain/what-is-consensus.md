@@ -1,5 +1,10 @@
 # What is consensus?
 
+!!! note "TL;DR"
+	Consensus is how thousands of computers agree on what's true - like getting everyone in a room to agree on a story. Different methods exist: Proof of Work is like solving puzzles to earn the right to speak, Proof of Stake is like having voting power based on how much you own, and other methods are variations on getting decentralized agreement.
+
+---
+
 In the context of blockchain technology, consensus refers to the process of achieving agreement among nodes in a decentralized network on the state of the network, including transactions, account balances, and other data. This agreement is necessary to ensure the integrity and security of the network, prevent double-spending and other fraudulent activities, and ensure that all participants have a consistent view of the network's state.
 
 ## What is a consensus algorithm?

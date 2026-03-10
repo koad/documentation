@@ -1,5 +1,10 @@
 ## What are bip39 and bip44?
 
+!!! note "TL;DR"
+	BIP39 creates your backup phrase (12-24 words) that restores your wallet, while BIP44 organizes all your different crypto accounts in a neat system - think of it as having one master key that opens all your different crypto drawers.
+
+---
+
 BIP39 and BIP44 are both Bitcoin Improvement Proposals (BIPs) that describe standards for deterministic key generation in Bitcoin wallets. However, they address different aspects of key generation and management.
 
 BIP39 specifies a mnemonic code or "seed phrase" that can be used to generate a series of private keys deterministically. The seed phrase is a sequence of words (usually 12 or 24) that can be easily written down and used to restore a wallet if the original is lost or damaged. The idea is to provide a user-friendly and secure way to back up a wallet, without the need for complex key management.

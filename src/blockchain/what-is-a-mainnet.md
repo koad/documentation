@@ -2,6 +2,11 @@
 
 ## What is a mainnet?
 
+!!! note "TL;DR"
+	Mainnet is the real, live blockchain where actual money moves - like the official highway everyone drives on. Testnet is the practice track with fake money where developers test new features without risking real cash.
+
+---
+
 In the context of blockchain technology, a mainnet refers to the live or official version of a blockchain network where real transactions can take place. A mainnet is launched after the completion of development and testing on a testnet or a series of testnets. The mainnet is considered the "production" version of the blockchain network and is the one that users interact with to conduct transactions and participate in the network.
 
 Once a mainnet is launched, it becomes the permanent and immutable version of the blockchain network, which means that any transactions or changes made on the mainnet are permanent and cannot be altered or reversed.

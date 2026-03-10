@@ -1,6 +1,11 @@
 
 ## What is a whitepaper?
 
+!!! note "TL;DR"
+	A whitepaper is like a business plan for crypto projects - it explains what the project does, how it works, and why you should care. Think of it as the instruction manual and sales brochure rolled into one.
+
+---
+
 In the context of cryptocurrency and blockchain technology, a whitepaper is a document that outlines the concept, design, and technical details of a specific project. It serves as a blueprint for the project and is usually published by the team or individuals behind the project to provide transparency and credibility to potential investors and users.
 
 A whitepaper typically includes information about the problem the project aims to solve, the proposed solution, the technology that will be used, the team behind the project, the roadmap and timeline, the token economics, and other relevant information. Whitepapers are often used as a tool to attract funding for the project through initial coin offerings (ICOs) or other crowdfunding mechanisms.

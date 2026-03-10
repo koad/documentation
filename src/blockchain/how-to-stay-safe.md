@@ -1,5 +1,10 @@
 ## How can I stay safe while using cryptocurrency?
 
+!!! note "TL;DR"
+	Treat crypto like cash - keep your private keys secret, use hardware wallets like a safe, enable 2FA like a second lock, and never click suspicious links. If it sounds too good to be true, it probably is.
+
+---
+
 Here are some tips to help you stay safe while using cryptocurrency:
 
 - Keep your private keys secure: Your private keys are what allow you to access your cryptocurrency. Keep them safe and do not share them with anyone.  

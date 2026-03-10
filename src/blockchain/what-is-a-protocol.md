@@ -1,5 +1,10 @@
 # What is a protocol?
 
+!!! note "TL;DR"
+	A protocol is like the rules of a game or language - it's how different computers talk to each other. In crypto, protocols define how blockchains work, how identities are managed, and how decentralized systems operate without central control.
+
+---
+
 In computing and networking, a protocol is a set of rules and procedures that dictate how data is transmitted and received between devices on a network. A protocol defines the format and sequence of messages exchanged between devices, as well as the actions that should be taken in response to those messages.
 
 Protocols are used in a variety of contexts, from the Internet Protocol (IP) that governs the transmission of data over the internet, to application-level protocols such as the Hypertext Transfer Protocol (HTTP) used for web browsing, or the Simple Mail Transfer Protocol (SMTP) used for email communication.

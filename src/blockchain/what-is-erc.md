@@ -1,5 +1,10 @@
 # What is ERC
 
+!!! note "TL;DR"
+	ERC standards are like USB standards for crypto tokens - they ensure all tokens work together smoothly. ERC-20 tokens are interchangeable (like dollars), ERC-721 are unique NFTs (like artwork), and ERC-1155 can be both - making them versatile for gaming and collectibles.
+
+---
+
 ERC stands for "Ethereum Request for Comments". It is a technical standard used for smart contracts on the Ethereum blockchain. ERC standards are designed to improve interoperability between different applications built on the Ethereum blockchain by ensuring that they all follow a set of rules and guidelines.
 
 ERC standards define the rules for creating, deploying, and interacting with smart contracts. For example, the ERC-20 standard defines the basic set of functions that an Ethereum token must implement to be considered an ERC-20 token. This ensures that ERC-20 tokens are compatible with each other and can be traded on decentralized exchanges and other platforms that support the standard.

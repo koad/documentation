@@ -1,5 +1,10 @@
 # What is BIP?
 
+!!! note "TL;DR"
+	A BIP is like a formal suggestion box for Bitcoin - anyone can propose improvements to how Bitcoin works, and the community discusses and decides whether to adopt them.
+
+---
+
 A Bitcoin Improvement Proposal (BIP) is a formal document used to propose changes to the Bitcoin protocol, network, or related processes. The BIPs are used to initiate discussions and to build consensus around proposed changes to the Bitcoin network. They are similar in concept to Internet Engineering Task Force (IETF) RFCs (Request for Comments) and are intended to provide a standard format for communicating ideas, improvements, and technical specifications for the Bitcoin network.
 
 The BIP process was introduced in 2011 and has since become an integral part of the Bitcoin development process. BIPs are categorized into three types, including Standards Track BIPs, Informational BIPs, and Process BIPs. Standards Track BIPs are used to propose new features or changes to the Bitcoin protocol, while Informational BIPs are used to document design issues or general guidelines. Process BIPs, on the other hand, are used to propose changes to the BIP process itself.
@@ -33,6 +38,8 @@ There are currently over 300 Bitcoin Improvement Proposals (BIPs), with some of 
 - BIP 143: Transaction Signature Verification for Version 0 Witness Program  
 - BIP 144: Segregated Witness (Peer Services)  
 - BIP 174: Partially Signed Bitcoin Transactions (PSBT)  
+- BIP 300: Drivechain  
+- BIP 301: Median Time Past as Endpoint for Locktime Transactions.  
 - BIP 340: Schnorr Signatures for secp256k1  
 - BIP 341: Taproot: SegWit Version 1 output spending rules  
 - BIP 342: Validation of Taproot Scripts by Miners  

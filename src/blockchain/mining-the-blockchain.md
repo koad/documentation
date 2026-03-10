@@ -1,5 +1,10 @@
 ## What is a mixer?
 
+!!! note "TL;DR"
+	A mixer is like a crypto washing machine - it mixes your coins with other people's coins to make it harder to trace where they came from and where they're going. It's a privacy tool that breaks the paper trail of transactions.
+
+---
+
 A mixer, also known as a cryptocurrency mixer, tumbler, or shuffler, is a privacy tool used to increase the anonymity of cryptocurrency transactions. A mixer works by pooling together multiple transactions from different users and then sending the mixed cryptocurrency to new addresses.
 
 When a user sends cryptocurrency through a mixer, their coins are mixed with coins from other users, making it difficult to trace the original source and destination of the transaction. This process can make it more difficult for third parties to track the movement of cryptocurrency and link transactions to specific individuals.

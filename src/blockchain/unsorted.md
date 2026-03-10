@@ -1,5 +1,10 @@
 ## What is a rug pull?
 
+!!! note "TL;DR"
+	A rug pull is when crypto project creators suddenly disappear with everyone's money - like pulling a rug out from under investors. Other terms: mining pools are groups that combine computing power, pre-mine is when creators keep coins for themselves before launch, and airdrops are free token giveaways.
+
+---
+
 A rug pull is a type of exit scam that occurs in the cryptocurrency world where a project or a token issuer suddenly abandons or pulls out of a project without any warning, taking all the funds invested in the project with them. This often leads to a sudden and sharp drop in the value of the token or coin, leaving investors with substantial losses. The term "rug pull" comes from the image of someone suddenly pulling a rug out from under someone else's feet, causing them to lose their balance and fall. Rug pulls are a significant risk in the largely unregulated world of cryptocurrency investing and trading, particularly in the decentralized finance (DeFi) space.
 
 

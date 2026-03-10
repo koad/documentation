@@ -2,6 +2,11 @@
 
 ## What is a 51% attack?
 
+!!! note "TL;DR"
+	A 51% attack is like someone taking over more than half the voting power in a democracy - they can control what gets recorded. Other attacks include double-spending (spending the same money twice), dusting (sending tiny amounts to track people), and quantum attacks (future computers that could break current crypto).
+
+---
+
 A 51% attack is a potential security vulnerability in blockchain networks, particularly those that use a proof-of-work (PoW) consensus mechanism, where a single entity or group of entities controls more than 50% of the network's computing power or hash rate. This can allow the controlling entity to manipulate the blockchain network's transactions and potentially reverse or double-spend previously confirmed transactions.
 
 In a blockchain network, transactions are confirmed and added to the blockchain by miners who compete to solve complex mathematical problems. These miners are rewarded with newly created coins and transaction fees. If a single entity or group of entities controls more than 50% of the network's computing power, they can theoretically control the blockchain's mining process and determine which transactions get confirmed.

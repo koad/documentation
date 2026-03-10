@@ -1,5 +1,10 @@
 # What is a side chain?
 
+!!! note "TL;DR"
+	A sidechain is like an expansion pack for a main blockchain - you can move your Bitcoin to the sidechain to use special features (like smart contracts or privacy), then move it back to the main chain. It's like having different rooms connected by doors, each designed for different purposes.
+
+---
+
 A sidechain is a separate blockchain that is connected to a main blockchain through a two-way peg. This two-way peg allows assets to be transferred from the main blockchain to the sidechain and back again, allowing for increased flexibility and interoperability between different blockchains.
 
 Sidechains are often used to address scalability and functionality limitations of main blockchains, as they can be designed to handle specific types of transactions or applications without requiring changes to the main blockchain itself. For example, a sidechain may be designed to handle microtransactions or privacy-focused transactions, while the main blockchain remains optimized for security and decentralization.
