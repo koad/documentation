@@ -11,7 +11,8 @@
 }
 
 [data-md-color-accent=koad] {
-  --md-accent-fg-color: #000;
+  --md-primary-fg-color: #1C2127;
+  --md-footer-bg-color: #1C2127;
 }
 
 [data-md-color-accent=koad-dark] {
@@ -19,6 +20,8 @@
   --md-accent-fg-color--transparent: rgba(0,189,164,0.1);
   --md-accent-bg-color: #fff;
   --md-accent-bg-color--light: hsla(0,0%,100%,0.7);
+  --md-primary-fg-color: #1C2127;
+  --md-footer-bg-color--dark: #1C2127;
 }
 
 p a:hover{
