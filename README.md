@@ -10,18 +10,10 @@ Take a journey through my mind's eye, what do you see?
 These documentations are served at [//book.koad.sh](https://book.koad.sh)
 
 
-## Install
-
-Install [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
-```bash
-pip install -e mkdocs-material
-```
-
 ## Run
 
 ```bash
-screen -S book.koad.sh
-cd /home/koad/.koad-io/docs && mkdocs serve --dev-addr 10.10.10.10:11600
+./start.sh
 ```
 
 # 🤝 Support
